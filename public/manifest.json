@@ -1,21 +1,16 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Illustrator, Animator, Designer • Miki Mottes • Illustrator • Creator of Simple Happy Kitchen",
+  "name": "Illustrator, Animator, Designer • Miki Mottes • Illustrator • Creator of Simple Happy Kitchen",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://mikimottes.com/favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
+      "src": "https://mikimottes.com/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
