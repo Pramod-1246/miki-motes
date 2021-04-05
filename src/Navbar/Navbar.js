@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div class="Navbar">
+        <div className="Navbar">
             <div id="oNavSpacer"></div>
 		    <nav>
 				<ul>
