@@ -40,7 +40,11 @@
     width: 100%;
   }
 }
-
+.content {
+  position: relative;
+  /* width: 1280px; */
+  margin: auto;
+}
 .backhills {
   position: fixed;
   top: 74px;
