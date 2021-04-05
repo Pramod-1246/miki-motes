@@ -3,7 +3,6 @@ import Navbar from "./Navbar/Navbar";
 import Mywork from './Components/Mywork/Mywork';
 import AboutComponent from './Components/AboutComponent/AboutComponent';
 
-import Mywork from './Components/Mywork/Mywork'
 function App() {
   return (
     <div>
