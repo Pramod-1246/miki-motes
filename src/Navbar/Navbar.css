@@ -21,7 +21,7 @@ nav{
 	height:98px;
 	padding:59px 0 0 0;
 	margin:0 0 0 -300px;
-	background:url(http://www.mikimottes.com/images/menu_bar.png) no-repeat;
+	background:url(../images/menu_bar.png) no-repeat;
 }
 
 nav.clsFixed{
@@ -36,6 +36,7 @@ nav ul{
 }
 
 nav ul li{
+    font-family: rabtus, Helvetica, Arial;
 	font-size:34px;
 	line-height:20px;
 	cursor:pointer;
@@ -43,30 +44,9 @@ nav ul li{
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
-	margin:0 14px 0 14px;
+	margin:0 12px 0 12px;
 }
 
 nav ul li:hover{
 	color:#e7e7e7;
-}
-
-@media only screen and (max-width : 1270px) {
-	.Navbar{
-		width:100%;
-	}
-}
-
-@media only screen and (max-width : 640px) {
-	html{
-		height:1541px;
-		overflow-y:scroll;
-	}
-
-	.Navbar{
-		zoom:100%;
-	}
-
-	.Navbar{
-		width:640px;
-	}
 }

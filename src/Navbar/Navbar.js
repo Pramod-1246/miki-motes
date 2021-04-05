@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="Navbar">
+        <>
             <div id="oNavSpacer"></div>
 		    <nav>
 				<ul>
@@ -13,7 +13,7 @@ const Navbar = () => {
                     <li>SHOP</li>
 			    </ul>
 		    </nav>
-        </div>
+        </>
     )
 }
 
