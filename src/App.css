@@ -26,7 +26,7 @@
 
 @media only screen and (max-width: 640px) {
   .content {
-    width: 640px;
+    width: 640px !important;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -37,12 +37,12 @@
 }
 @media only screen and (max-width: 1270px) {
   .content {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .content {
   position: relative;
-  /* width: 1280px; */
+  width: 1280px;
   margin: auto;
 }
 .backhills {
