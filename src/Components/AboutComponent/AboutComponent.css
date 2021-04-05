@@ -13,10 +13,11 @@
 }
 
 .clsAbout a {
+    text-decoration: underline;
     color: grey;
 }
 
-.clsAbout a :hover {
+.clsAbout a:hover {
     color: maroon;
 }
 
