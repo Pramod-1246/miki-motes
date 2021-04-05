@@ -1,15 +1,16 @@
-import './App.css';
+import "./App.css";
+import Mywork from "./Components/Mywork/Mywork";
+import "./App.css";
 import Navbar from "./Navbar/Navbar";
-import Mywork from './Components/Mywork/Mywork';
-import AboutComponent from './Components/AboutComponent/AboutComponent';
+import AboutComponent from "./Components/AboutComponent/AboutComponent";
 
 function App() {
   return (
     <div>
-      <div className="bg"/>
+      <div className="bg" />
       <div className="content">
         <Navbar />
-        <Mywork/>
+        <Mywork />
         <AboutComponent />
       </div>
       <div className="animations"></div>
