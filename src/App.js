@@ -2,8 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      MIKI MOTES      
+    <div>
+      <div className="bg"/>
+      <div className="content"></div>
+      <div className="animations"></div>
+      <div className="backhills"></div>
     </div>
   );
 }
