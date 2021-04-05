@@ -1,0 +1,74 @@
+.myworkSection {
+  position: relative;
+  top: 470px;
+  z-index: 11;
+  height: 1080px;
+  padding: 40px 0px 0px;
+}
+
+.grid_item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 286px;
+  margin: 0px 12px 15px;
+}
+
+.new ::before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  left: -20px;
+  top: -20px;
+  width: 62px;
+  height: 61px;
+  background: url(http://www.mikimottes.com/images/new_badge.png);
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.grid_img::before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  width: 286px;
+  height: 164px;
+  background: url(http://www.mikimottes.com/images/frames.png) no-repeat;
+}
+.grid_img:hover {
+  background: none;
+}
+
+.grid_title {
+  font-family: rabtus, Helvetica, Arial;
+  color: rgb(231, 231, 231);
+  font-size: 17px;
+  line-height: 16px;
+  padding: 0px;
+  margin: 0px 0px 1px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+.grid_title:hover {
+  color: #77dd77;
+}
+.grid_subtitle {
+  font-family: rabtus, Helvetica, Arial;
+  color: rgb(192, 184, 177);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  padding: 0px;
+  margin: 2px 0px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.grid_items {
+  font-size: 0px;
+  line-height: 0;
+  text-align: center;
+}
