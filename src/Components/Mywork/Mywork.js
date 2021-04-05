@@ -37,15 +37,28 @@ export default function Mywork() {
         <section className="myworkSection">
             <div className="grid_items">
             {
-                state.map((d,i)=>(
-                    <div className="grid_item text-center" key={i}>
+                state.map((d,i)=>{
+                    if(i===0 || i===1){
+                    return(
+                    <div className="grid_item text-center new" key={i}>
                         <div className="grid_img">
-                            <img src={d.image}/>
+                            <img src={d.image} alt={d.title}/>
                         </div>
                         <h3 className="grid_title mt-2">{d.title}</h3>
                         <h4 className="grid_subtitle">{d.subtitle}</h4>
                     </div>
-                ))
+                    )                        
+                    }
+                    return(
+                    <div className="grid_item text-center" key={i}>
+                        <div className="grid_img">
+                            <img src={d.image} alt={d.title}/>
+                        </div>
+                        <h3 className="grid_title mt-2">{d.title}</h3>
+                        <h4 className="grid_subtitle">{d.subtitle}</h4>
+                    </div>
+                    )
+                })
             }
             </div>
         </section>

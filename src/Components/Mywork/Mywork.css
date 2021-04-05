@@ -50,6 +50,7 @@
   cursor: pointer;
 }
 .grid_subtitle {
+  font-family: rabtus, Helvetica, Arial;
   color: rgb(192, 184, 177);
   font-size: 14px;
   line-height: 18px;
