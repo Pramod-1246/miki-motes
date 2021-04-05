@@ -1,11 +1,12 @@
-import './App.css';
-import Mywork from './Components/Mywork/Mywork'
+import "./App.css";
+import Mywork from "./Components/Mywork/Mywork";
 function App() {
   return (
     <div>
-      <div className="bg"/>
+      <div className="bg" />
       <div className="content">
-        <Mywork/>
+        <div style={{ width: "100%", height: "483px" }}></div>
+        <Mywork />
       </div>
       <div className="animations"></div>
       <div className="backhills"></div>
