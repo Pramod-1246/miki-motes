@@ -11,6 +11,7 @@
   background: url(http://www.mikimottes.com/images/bg_big.png) center 15px /
     2750px 3017px no-repeat;
 }
+
 @media only screen and (max-width: 1024px) {
   .bg {
     background: url(http://www.mikimottes.com/images/bg_tablet.jpg) center 15px /

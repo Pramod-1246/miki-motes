@@ -1,4 +1,6 @@
 .clsAbout {
+    top: 500px;
+    font-family: rabtus, Helvetica, Arial;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.5px;
@@ -10,29 +12,41 @@
     margin: 0 auto 0 auto;
 }
 
+.clsAbout a {
+    color: grey;
+}
+
+.clsAbout a :hover {
+    color: maroon;
+}
+
 .clsAbout h2 {
+    padding-left: 18px;
     color: white;
+    margin-bottom: 50px;
 }
 
 #about-me {
     display: inline-block;
-    width: 82px;
+    width: 84px;
     height: 20px;
-    margin:0px 1px;
-    padding: 2px;
+    margin-right:2px;
+    padding:0px 6px;
 }
 
 #publications {
     display: inline-block;
-    width: 82px;
+    width: 84px;
     height: 20px;
-    margin:0px 1px;
-    padding: 2px;
+    margin-left:2px;
+    padding:0px 6px;
 }
 
 .button-div {
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    top: 275px;
+    left: 427px;
 }
 
 .about-content {
