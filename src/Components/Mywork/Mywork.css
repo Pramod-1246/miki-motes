@@ -1,5 +1,6 @@
 .myworkSection {
   position: relative;
+  top: 470px;
   z-index: 11;
   height: 1080px;
   padding: 40px 0px 0px;
@@ -37,6 +38,9 @@
   height: 164px;
   background: url(http://www.mikimottes.com/images/frames.png) no-repeat;
 }
+.grid_img:hover {
+  background: none;
+}
 
 .grid_title {
   font-family: rabtus, Helvetica, Arial;
@@ -48,6 +52,9 @@
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
+}
+.grid_title:hover {
+  color: #77dd77;
 }
 .grid_subtitle {
   font-family: rabtus, Helvetica, Arial;

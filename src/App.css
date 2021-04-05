@@ -11,6 +11,7 @@
   background: url(http://www.mikimottes.com/images/bg_big.png) center 15px /
     2750px 3017px no-repeat;
 }
+
 @media only screen and (max-width: 1024px) {
   .bg {
     background: url(http://www.mikimottes.com/images/bg_tablet.jpg) center 15px /
@@ -26,7 +27,7 @@
 
 @media only screen and (max-width: 640px) {
   .content {
-    width: 640px;
+    width: 640px !important;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -37,12 +38,12 @@
 }
 @media only screen and (max-width: 1270px) {
   .content {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .content {
   position: relative;
-  /* width: 1280px; */
+  width: 1280px;
   margin: auto;
 }
 .backhills {

@@ -1,5 +1,7 @@
 import './App.css';
 import Navbar from "./Navbar/Navbar";
+import Mywork from './Components/Mywork/Mywork';
+import AboutComponent from './Components/AboutComponent/AboutComponent';
 
 import Mywork from './Components/Mywork/Mywork'
 function App() {
@@ -9,6 +11,7 @@ function App() {
       <div className="content">
         <Navbar />
         <Mywork/>
+        <AboutComponent />
       </div>
       <div className="animations"></div>
       <div className="backhills"></div>
