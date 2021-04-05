@@ -8,6 +8,10 @@
 	font-style: normal;
 }
 
+#oNavSpacer{
+	height:138px;
+}
+
 nav{
 	z-index:20;
 	position:absolute;
@@ -32,7 +36,6 @@ nav ul{
 }
 
 nav ul li{
-    font-family: rabtus, Helvetica, Arial;
 	font-size:34px;
 	line-height:20px;
 	cursor:pointer;
@@ -40,7 +43,7 @@ nav ul li{
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
-	margin:0 12px 0 12px;
+	margin:0 14px 0 14px;
 }
 
 nav ul li:hover{
@@ -60,7 +63,7 @@ nav ul li:hover{
 	}
 
 	.Navbar{
-		zoom:50%;
+		zoom:100%;
 	}
 
 	.Navbar{
