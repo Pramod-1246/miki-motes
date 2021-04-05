@@ -1,0 +1,63 @@
+.clsAbout {
+    top: 360px;
+    font-family: rabtus, Helvetica, Arial;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    position: relative;
+    z-index: 11;
+    height: 330px;
+    width: 620px;
+    padding: 0 50px 0 20px;
+    margin: 0 auto 0 auto;
+}
+
+.clsAbout a {
+    text-decoration: underline;
+    color: grey;
+}
+
+.clsAbout a:hover {
+    color: maroon;
+}
+
+.clsAbout h2 {
+    padding-left: 18px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#about-me {
+    display: inline-block;
+    width: 84px;
+    height: 20px;
+    margin-right:2px;
+    padding:2px 6px;
+}
+
+#publications {
+    display: inline-block;
+    width: 84px;
+    height: 20px;
+    margin-left:2px;
+    padding:2px 6px;
+}
+
+.button-div {
+    cursor: pointer;
+    position: absolute;
+    top: 277px;
+    left: 427px;
+}
+
+.about-content {
+    position: relative;
+}
+
+.background-grey{
+    background-color: gray;
+}
+
+.background-yellow {
+    background-color: #f5bd00;
+}
