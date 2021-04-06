@@ -3,7 +3,7 @@ import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
 import Navbar from "./Components/Navbar/Navbar";
 import Mywork from "./Components/Mywork/Mywork";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
-import Features from './Features';
+import Features from './Components/Features/Features';
 
 
 function App() {
