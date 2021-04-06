@@ -1,12 +1,11 @@
 import './App.css';
 import { useEffect } from 'react';
-
 import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
 import Navbar from "./Components/Navbar/Navbar";
 import Mywork from "./Components/Mywork/Mywork";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
 import Animations from "./Components/Animations/Animations";
-
+import Features from './Features';
 function App() {
   useEffect(() => {
     window.onload = function(){
@@ -26,6 +25,7 @@ function App() {
         <Navbar />
         <Mywork />
         <AboutComponent />
+        <Features />
       </div>
       <div className="animations">
         <Animations/>
