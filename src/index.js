@@ -2,11 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './fonts/rabtus_ng-webfont.ttf'; 
+import './Assets/fonts/rabtus_ng-webfont.ttf'; 
 ReactDOM.render(
     <App />,
   document.getElementById('root')
 );
-reportWebVitals();

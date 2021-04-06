@@ -32,7 +32,8 @@
 }
 @media only screen and (max-width: 640px) {
   .content,
-  .bg {
+  .bg,
+  .animations {
     zoom: 50%;
   }
 }
@@ -75,4 +76,13 @@
   color: rgb(255, 255, 255);
   font-family: Arial;
   text-align: center;
+}
+
+.animations {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3082px;
+  overflow: hidden;
 }

@@ -1,9 +1,10 @@
 import './App.css';
-import Mywork from './Components/Mywork/Mywork';
-import AboutComponent from './Components/AboutComponent/AboutComponent';
 import { useEffect } from 'react';
-import Navbar from "./Navbar/Navbar";
-
+import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
+import Navbar from "./Components/Navbar/Navbar";
+import Mywork from "./Components/Mywork/Mywork";
+import AboutComponent from "./Components/AboutComponent/AboutComponent";
+import Animations from "./Components/Animations/Animations";
 function App() {
   useEffect(() => {
     window.onload = function(){
@@ -19,11 +20,14 @@ function App() {
       </div>
       <div className="bg"/>
       <div className="content">
+        <HeaderComponent />
         <Navbar />
         <Mywork />
         <AboutComponent />
       </div>
-      <div className="animations"></div>
+      <div className="animations">
+        <Animations/>
+      </div>
       <div className="backhills" id="backhills"></div>
     </div>
   );
