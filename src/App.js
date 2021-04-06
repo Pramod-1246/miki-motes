@@ -1,14 +1,16 @@
 import "./App.css";
+import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
+import Navbar from "./Components/Navbar/Navbar";
 import Mywork from "./Components/Mywork/Mywork";
-import "./App.css";
-import Navbar from "./Navbar/Navbar";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
+
 
 function App() {
   return (
     <div>
       <div className="bg" />
       <div className="content">
+        <HeaderComponent />
         <Navbar />
         <Mywork />
         <AboutComponent />
