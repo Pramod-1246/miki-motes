@@ -3,17 +3,21 @@ import "./Mywork.css";
 import $ from 'jquery';
 import {data} from './Data'
 export default function Mywork() {
+  const Reset=()=>{
+    if (window.innerWidth < 950) {
+      setstate(data["0"].slice(0, 8));
+    } else if (window.innerWidth < 1240) {
+      setstate(data["0"].slice(0, 12));
+    } else {
+      setstate(data["0"].slice(0, 16));
+    }
+  }
   const [state, setstate] = useState(data["0"]);
   const [index, setIndex] = useState(0);
   useEffect(() => {
-    window.onresize = function (e) {
-      if (e.target.innerWidth < 950) {
-        setstate(data["0"].slice(0, 8));
-      } else if (e.target.innerWidth < 1240) {
-        setstate(data["0"].slice(0, 12));
-      } else {
-        setstate(data["0"].slice(0, 16));
-      }
+    Reset()
+    window.onresize = function(){
+      Reset()
     };
     $(window).scroll(function() {
       if($(window).scrollTop()>400){
@@ -23,12 +27,13 @@ export default function Mywork() {
       }
     });
     
-  });
+  },[]);
   const leftClick = () => {
     if (index === 0) return;
     setstate([]);
     setTimeout(() => {
       setstate(data[index - 1]);
+      Reset()
     }, 500);
     setIndex(index - 1);
     $('html, body').animate({
@@ -40,6 +45,7 @@ export default function Mywork() {
     setstate([]);
     setTimeout(() => {
       setstate(data[index + 1]);
+      Reset()
     }, 500);
     setIndex(index + 1);
     $('html, body').animate({
