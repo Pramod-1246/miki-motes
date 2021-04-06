@@ -1,10 +1,12 @@
 import './App.css';
 import { useEffect } from 'react';
+
 import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
 import Navbar from "./Components/Navbar/Navbar";
 import Mywork from "./Components/Mywork/Mywork";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
 import Animations from "./Components/Animations/Animations";
+
 function App() {
   useEffect(() => {
     window.onload = function(){
