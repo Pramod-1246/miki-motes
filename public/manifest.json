@@ -1,18 +1,6 @@
 {
   "short_name": "Illustrator, Animator, Designer • Miki Mottes • Illustrator • Creator of Simple Happy Kitchen",
   "name": "Illustrator, Animator, Designer • Miki Mottes • Illustrator • Creator of Simple Happy Kitchen",
-  "icons": [
-    {
-      "src": "https://mikimottes.com/favicon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "https://mikimottes.com/favicon.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
-  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
