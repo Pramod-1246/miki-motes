@@ -1,5 +1,5 @@
 .clsAbout {
-    top: 55px;
+    top: 60px;
     font-family: rabtus, Helvetica, Arial;
     font-size: 18px;
     line-height: 22px;
@@ -48,8 +48,8 @@
 .button-div {
     cursor: pointer;
     position: absolute;
-    top: 277px;
-    left: 424px;
+    top: 272px;
+    left: 422px;
 }
 
 .about-content {
