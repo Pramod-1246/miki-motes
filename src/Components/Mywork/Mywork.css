@@ -1,6 +1,6 @@
 .myworkSection {
   position: relative;
-  top: 470px;
+  top: 340px;
   z-index: 11;
   height: 1080px;
   padding: 40px 0px 0px;
@@ -80,7 +80,7 @@
   height: 77px;
   width: 20%;
   margin: 0 auto;
-  margin-bottom: 42px;
+  margin-bottom: 35px;
   display: flex;
   justify-content: center;
   padding-right: 22px;
@@ -100,6 +100,14 @@
   margin-right: 15px;
   cursor: pointer;
 }
+.mywork-btn-left--disable {
+  background-position: -73px 0;
+  cursor: default;
+}
+.mywork-btn-left--disable:hover {
+  background-position: -73px 0;
+  cursor: default;
+}
 .mywork-btn-right {
   height: 100%;
   width: 72px;
@@ -108,9 +116,13 @@
   margin-left: 15px;
   cursor: pointer;
 }
-
 .mywork-btn-right:hover {
-  background: url(http://www.mikimottes.com/images/arrows.png) no-repeat;
   background-position: -365px 0;
-  margin-left: 15px;
+}
+.mywork-btn-right--disable {
+  background-position: -292px 0;
+}
+.mywork-btn-right--disable:hover {
+  background-position: -292px 0;
+  cursor: default;
 }

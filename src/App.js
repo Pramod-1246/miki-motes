@@ -2,6 +2,7 @@ import './App.css';
 import Mywork from './Components/Mywork/Mywork';
 import AboutComponent from './Components/AboutComponent/AboutComponent';
 import { useEffect } from 'react';
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   useEffect(() => {
@@ -18,7 +19,8 @@ function App() {
       </div>
       <div className="bg"/>
       <div className="content">
-        <Mywork/>
+        <Navbar />
+        <Mywork />
         <AboutComponent />
       </div>
       <div className="animations"></div>

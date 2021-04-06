@@ -1,5 +1,5 @@
 .clsAbout {
-    top: 500px;
+    top: 360px;
     font-family: rabtus, Helvetica, Arial;
     font-size: 18px;
     line-height: 22px;
@@ -32,7 +32,7 @@
     width: 84px;
     height: 20px;
     margin-right:2px;
-    padding:0px 6px;
+    padding:2px 6px;
 }
 
 #publications {
@@ -40,13 +40,13 @@
     width: 84px;
     height: 20px;
     margin-left:2px;
-    padding:0px 6px;
+    padding:2px 6px;
 }
 
 .button-div {
     cursor: pointer;
     position: absolute;
-    top: 275px;
+    top: 277px;
     left: 427px;
 }
 
