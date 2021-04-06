@@ -24,7 +24,7 @@ function App() {
         <AboutComponent />
       </div>
       <div className="animations"></div>
-      <div className="backhills"></div>
+      <div className="backhills" id="backhills"></div>
     </div>
   );
 }
