@@ -1,8 +1,11 @@
 import './App.css';
-import Mywork from './Components/Mywork/Mywork';
-import AboutComponent from './Components/AboutComponent/AboutComponent';
 import { useEffect } from 'react';
-import Navbar from "./Navbar/Navbar";
+
+import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
+import Navbar from "./Components/Navbar/Navbar";
+import Mywork from "./Components/Mywork/Mywork";
+import AboutComponent from "./Components/AboutComponent/AboutComponent";
+
 
 function App() {
   useEffect(() => {
@@ -19,6 +22,7 @@ function App() {
       </div>
       <div className="bg"/>
       <div className="content">
+        <HeaderComponent />
         <Navbar />
         <Mywork />
         <AboutComponent />
