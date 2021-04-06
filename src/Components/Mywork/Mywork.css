@@ -1,9 +1,12 @@
 .myworkSection {
   position: relative;
-  top: 470px;
+  top: 340px;
   z-index: 11;
   height: 1080px;
   padding: 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .grid_item {
@@ -71,4 +74,43 @@
   font-size: 0px;
   line-height: 0;
   text-align: center;
+}
+
+.mywork-btn {
+  height: 77px;
+  width: 20%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  padding-right: 22px;
+}
+
+.mywork-btn-left {
+  height: 100%;
+  width: 72px;
+  background: url(http://www.mikimottes.com/images/arrows.png) no-repeat;
+  background-position: 0 0;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.mywork-btn-left:hover {
+  background: url(http://www.mikimottes.com/images/arrows.png) no-repeat;
+  background-position: -146px 0;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.mywork-btn-right {
+  height: 100%;
+  width: 72px;
+  background: url(http://www.mikimottes.com/images/arrows.png) no-repeat;
+  background-position: -219px 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.mywork-btn-right:hover {
+  background: url(http://www.mikimottes.com/images/arrows.png) no-repeat;
+  background-position: -365px 0;
+  margin-left: 15px;
 }

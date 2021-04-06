@@ -1,0 +1,37 @@
+#oNavSpacer{
+	height:0px;
+}
+
+nav{
+	z-index:20;
+	position:sticky;
+	left:50%;
+	top:-5px;
+	width:589px;
+	height:98px;
+	padding:59px 0 10px 0;
+	margin:0 27.5% 40px -300px;
+	background:url(../../Assets/images/menu_bar.png) no-repeat;
+}
+
+nav ul{
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+nav ul li{
+    font-family: rabtus, Helvetica, Arial;
+	font-size:34px;
+	line-height:20px;
+	cursor:pointer;
+
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 14px 0 14px;
+}
+
+nav ul li:hover{
+	color:#e7e7e7;
+}
