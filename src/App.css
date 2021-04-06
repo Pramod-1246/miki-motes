@@ -32,7 +32,8 @@
 }
 @media only screen and (max-width: 640px) {
   .content,
-  .bg {
+  .bg,
+  .animations {
     zoom: 50%;
   }
 }
@@ -75,4 +76,177 @@
   color: rgb(255, 255, 255);
   font-family: Arial;
   text-align: center;
+}
+
+.animations {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3082px;
+  overflow: hidden;
+}
+
+/* sec-features */
+
+.f1 {
+  position: relative;
+  z-index: 11;
+  height: 395px;
+  padding: 100px 0 0 0;
+  margin: auto;
+}
+section {
+  display: block;
+}
+.f1 h2 {
+  color: #f4d2d3;
+  font-size: 29px;
+  line-height: 29px;
+  text-align: center;
+  padding: 13px 0 0 0;
+  margin: 0 auto 22px auto;
+  font-family: rabtus, Helvetica, Arial;
+}
+h2 {
+  font-weight: normal;
+  /* margin: 0;
+  padding: 0;
+  border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: rabtus, Helvetica, Arial;
+}
+@media only screen and (max-width: 1270px) {
+  .f1 .clsShopItems {
+    text-align: center;
+  }
+}
+.f1 .clsShopItems {
+  /* font-size: 0;
+  line-height: 0; */
+  text-align: center;
+}
+div {
+  display: block;
+}
+
+/* clsShopItem */
+
+@media only screen and (max-width: 1270px) {
+  .f1 .clsShopItems .clsShopItem {
+    margin: 0 12px 15px 12px;
+  }
+}
+.f1 .clsShopItems .clsShopItem {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 286px;
+  margin: 0 12px 15px 12px;
+}
+.clsWorks .clsWorkItems .clsWorkItem .clsImg,
+.f1 .clsShopItems .clsShopItem .clsImg {
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+  width: 286px;
+  height: 164px;
+  padding: 3px 0 0 3px;
+  margin: 0 0 3px 0;
+}
+.f1 .clsShopItems .clsShopItem:nth-child(3n + 1) .clsImg:before {
+  background-position: 0 0;
+}
+.f1 .clsShopItems .clsShopItem .clsImg:before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  width: 286px;
+  height: 164px;
+  background: url(http://www.mikimottes.com/images/frames.png) no-repeat;
+}
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.f1 .clsShopItems .clsShopItem h3 {
+  color: #e8e2dd;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0 0 1px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: rabtus, Helvetica, Arial;
+}
+h3 {
+  font-weight: normal;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* For Responsive */
+
+.clsWorks .clsWorkItems .clsWorkItem:nth-child(3n + 1):hover .clsImg:before,
+.f1 .clsShopItems .clsShopItem:nth-child(3n + 1):hover .clsImg:before {
+  background-position: -287px 0;
+}
+.clsWorks .clsWorkItems .clsShopItem:nth-child(3n + 2) .clsImg:before,
+.f1 .clsShopItems .clsShopItem:nth-child(3n + 2):hover .clsImg:before {
+  background-position: -287px 0;
+}
+.clsWorks .clsWorkItems .clsShopItem:nth-child(3n + 3) .clsImg:before,
+.f1 .clsShopItems .clsShopItem:nth-child(3n + 3):hover .clsImg:before {
+  background-position: -287px 0;
+}
+.f1 .clsShopItems .clsShopItem:nth-child(3n + 3) .clsImg:before {
+  background-position: -1148px 0;
+}
+@media only screen and (max-width: 930px) {
+  .f1 .clsShopItems .clsShopItem:nth-child(3n) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .f1 .clsShopItems .clsShopItem:nth-child(4n) {
+    display: none;
+  }
+  .f1 .clsShopItems .clsShopItem:nth-child(4n) {
+    margin-right: 0;
+  }
+  @media only screen and (max-width: 1270px) {
+    .f1 .clsShopItems .clsShopItem {
+      margin: 0 12px 15px 12px;
+    }
+  }
+}
+
+/* Grid background */
+
+.clsWorks .clsWorkItems .clsWorkItem .clsImg:before,
+.f1 .clsShopItems .clsShopItem .clsImg:before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  width: 286px;
+  height: 164px;
+  background: url(http://www.mikimottes.com/images/frames.png) no-repeat;
 }

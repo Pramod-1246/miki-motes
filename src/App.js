@@ -1,11 +1,13 @@
 import './App.css';
 import { useEffect } from 'react';
-
 import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
 import Navbar from "./Components/Navbar/Navbar";
 import Mywork from "./Components/Mywork/Mywork";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
-
+import Animations from "./Components/Animations/Animations";
+import Features from './Features';
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -26,8 +28,13 @@ function App() {
         <Navbar />
         <Mywork />
         <AboutComponent />
+        <Features />
+        <Contact />
+        <Footer />
       </div>
-      <div className="animations"></div>
+      <div className="animations">
+        <Animations/>
+      </div>
       <div className="backhills" id="backhills"></div>
     </div>
   );

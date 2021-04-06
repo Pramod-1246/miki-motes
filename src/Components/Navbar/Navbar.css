@@ -1,32 +1,17 @@
-@font-face {
-	font-family: 'rabtus';
-	src: url(http://www.mikimottes.com/fonts/rabtus_ng-webfont.eot);
-	src: url(http://www.mikimottes.com/fonts/rabtus_ng-webfont.eot?#iefix) format('embedded-opentype'),
-		    url(http://www.mikimottes.com/fonts/rabtus_ng-webfont.ttf) format('truetype'),
-		    url(http://www.mikimottes.com/fonts/rabtus_ng-webfont.svg#rabtusregular) format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 #oNavSpacer{
-	height:138px;
+	height:0px;
 }
 
 nav{
 	z-index:20;
-	position:absolute;
+	position:sticky;
 	left:50%;
-	top:346px;
+	top:-5px;
 	width:589px;
 	height:98px;
-	padding:59px 0 0 0;
-	margin:0 0 0 -300px;
+	padding:59px 0 10px 0;
+	margin:0 27.5% 40px -300px;
 	background:url(../../Assets/images/menu_bar.png) no-repeat;
-}
-
-nav.clsFixed{
-	position:fixed;
-	top:-5px;
 }
 
 nav ul{
@@ -44,7 +29,7 @@ nav ul li{
 	position:relative;
 	display:inline-block;
 	vertical-align:top;
-	margin:0 12px 0 12px;
+	margin:0 14px 0 14px;
 }
 
 nav ul li:hover{
