@@ -94,9 +94,242 @@ const data = {
       subtitle: "Black-blue Totems",
     },
   ],
+  1: [
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_vegan_charts.jpg",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_dorot_package.jpg",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_dorot_package.jpg",
+      title: "Pasta Sauce Package Illustration",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "charts",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+  ],
+  2: [
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "charts",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "charts",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_dorot_package.jpg",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "charts",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+  ],
+  3: [
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_math_iphone_game_land_of_venn.gif",
+      title: "Iphone",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_cement_cat.jpg",
+      title: "charts",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image: "http://www.mikimottes.com/images/hp_thumbnails/t_trioplastic.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_dorot_package.jpg",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_green_black_print.gif",
+      title: "Trioplastic",
+      subtitle: "Black-blue Totems",
+    },
+    {
+      image:
+        "http://www.mikimottes.com/images/hp_thumbnails/t_vegan_charts.jpg",
+      title: "Pasta",
+      subtitle: "Black-blue Totems",
+    },
+  ],
 };
 export default function Mywork() {
   const [state, setstate] = useState(data["0"]);
+  const [index, setIndex] = useState(0);
   useEffect(() => {
     window.onresize = function (e) {
       if (e.target.innerWidth < 950) {
@@ -109,10 +342,20 @@ export default function Mywork() {
     };
   });
   const leftClick = () => {
-    setstate(data["0"].slice(0, 6 + Math.floor(Math.random() * 10)));
+    if (index === 0) return;
+    setstate([]);
+    setTimeout(() => {
+      setstate(data[index - 1]);
+    }, 500);
+    setIndex(index - 1);
   };
   const rightClick = () => {
-    setstate(data["0"].slice(0, 6 + Math.floor(Math.random() * 10)));
+    if (index === 3) return;
+    setstate([]);
+    setTimeout(() => {
+      setstate(data[index + 1]);
+    }, 500);
+    setIndex(index + 1);
   };
   return (
     <section className="myworkSection">
@@ -140,9 +383,20 @@ export default function Mywork() {
           );
         })}
       </div>
+      ;
       <div className="mywork-btn">
-        <div className="mywork-btn-left" onClick={leftClick}></div>
-        <div className="mywork-btn-right" onClick={rightClick}></div>
+        <div
+          className={`mywork-btn-left ${
+            index === 0 ? "mywork-btn-left--disable" : null
+          }`}
+          onClick={leftClick}
+        ></div>
+        <div
+          className={`mywork-btn-right ${
+            index === 3 ? "mywork-btn-right--disable" : null
+          }`}
+          onClick={rightClick}
+        ></div>
       </div>
     </section>
   );
