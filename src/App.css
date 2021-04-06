@@ -90,6 +90,7 @@
 /* sec-features */
 
 .f1 {
+  top: 40px;
   position: relative;
   z-index: 11;
   height: 395px;

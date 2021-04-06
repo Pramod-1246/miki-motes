@@ -1,11 +1,12 @@
 .clsAbout {
-    top: 15px;
+    top: 65px;
     font-family: rabtus, Helvetica, Arial;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.5px;
     position: relative;
     z-index: 11;
+    left: -5px;
     height: 330px;
     width: 620px;
     padding: 0 50px 0 20px;
@@ -47,8 +48,8 @@
 .button-div {
     cursor: pointer;
     position: absolute;
-    top: 277px;
-    left: 425px;
+    top: 267px;
+    left: 422px;
 }
 
 .about-content {
