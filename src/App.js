@@ -5,12 +5,15 @@ import Navbar from "./Components/Navbar/Navbar";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
+
 
 function App() {
   return (
     <div>
       <div className="bg" />
       <div className="content">
+        <HeaderComponent />
         <Navbar />
         <Mywork />
         <AboutComponent />

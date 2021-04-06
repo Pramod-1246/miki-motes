@@ -1,0 +1,119 @@
+header {
+    font-family: rabtus, Helvetica, sans-serif;
+    height: 345px;
+    z-index: 11;
+}
+
+.header-title {
+    line-height:0;
+	position:absolute;
+	left:50%;
+	top:30px;
+	cursor:pointer;
+	text-align:center;
+	margin-left:-298px;
+	z-index:11;
+}
+
+.header-title h1 {
+	color:#e6e1dc;
+	font-size:32px;
+	line-height:32px;
+	padding:0;
+	margin:1px 0 3px 0;
+	text-align:center;
+	width:180px;
+}
+
+.header-title h2 {
+    color:#c0b8b1;
+	font-size:11px;
+	letter-spacing:0.5px;
+	line-height:13px;
+	padding:0;
+	margin:0;
+	text-align:center;
+	width:180px;
+}
+
+header > ul {
+	padding:0;
+	margin:0;
+    position:absolute;
+	left:50%;
+	top:7px;
+	z-index:11;
+	white-space:nowrap;
+	margin-left:320px;
+}
+
+header > ul > li {
+	padding:0;
+	margin:0 0 0 0;
+    display:inline-block;
+	width:53px;
+	height:53px;
+	list-style:none;
+	background:url(../../Assets/images/social-icons.png);
+	transition: all .15s ease-in-out;
+	transition-property:transform;
+}
+
+header > ul > li:hover{
+	transform:rotate(-20deg)
+}
+
+header > ul > li > a {
+    display: block;
+    font-size: 0;
+    width: 55px;
+    height: 55px;
+}
+
+.btn-dribble {
+    background-position: 0 0;
+}
+
+.btn-dribble:hover{
+    background-position: -54px 0;
+}
+
+.btn-etsy {
+    background-position: -108px 0;
+}
+
+.btn-etsy:hover {
+    background-position: -161px 0;
+}
+
+.btn-facebook {
+    background-position: -214px 0;
+}
+
+.btn-facebook:hover {
+    background-position: -266px 0;
+}
+
+.btn-twitter{
+    background-position: -318px 0;
+}
+
+.btn-twitter:hover{
+    background-position: -371px 0;
+}
+
+.btn-pintrest {
+    background-position: -426px 0;
+}
+
+.btn-pintrest:hover{
+    background-position: -480px 0;
+}
+
+@media only screen and (max-width : 1100px) {
+	header > ul{
+		left:auto;
+		right:10px;
+		margin-left:0;
+	}
+}
