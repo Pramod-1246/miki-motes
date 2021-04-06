@@ -3,8 +3,7 @@ import React from 'react'
 function Features() {
     return (
         <div>
-            <a id="shop" name="shop"></a>
-            <section id="oBox3" class="clsBox clsShop">
+            <section id="features" class="clsBox clsShop f1">
 			<h2>FEATURED SHOP ITEMS</h2>
 			<div class="clsShopItems">
                 <div class="clsShopItem">
