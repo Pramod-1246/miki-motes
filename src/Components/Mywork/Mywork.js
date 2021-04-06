@@ -20,7 +20,7 @@ export default function Mywork() {
       Reset()
     };
     $(window).scroll(function() {
-      if($(window).scrollTop()>400){
+      if($(window).scrollTop()>200){
         document.getElementById('backhills').style.display='none'
       }else{
         document.getElementById('backhills').style.display='block'
