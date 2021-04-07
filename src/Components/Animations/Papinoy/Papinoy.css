@@ -1,0 +1,27 @@
+.papinoy
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 52px;
+    margin-left: -480px;
+    width: 63px;
+    height: 51px;
+}
+
+.papinoy .anim
+{
+    width: 63px;
+    height: 51px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/papinoy.png);
+    animation: papinoy 1.2s steps(30) infinite;
+    transform-origin:37px 42px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes papinoy {
+	100% {
+        background-position: -1890px;
+    }
+}

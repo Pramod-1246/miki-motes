@@ -5,9 +5,12 @@ import Shopstarts from "./Shopstarts/Shopstars";
 import ImageAnim from "../Common/ImageAnim/ImageAnim";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
+import PropellorLeft from "./PropellorLeft/PropellorLeft";
+import PropellorRight from "./PropellorRight/PropellorRight";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
 import ShopHands from "./ShopHands/ShopHands";
+import Papinoy from "./Papinoy/Papinoy";
 
 export default function Animations() {
   return (
@@ -54,6 +57,9 @@ export default function Animations() {
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
+      <PropellorLeft />
+      <Papinoy />
+      <PropellorRight />
     </>
   );
 }
