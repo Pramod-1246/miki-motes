@@ -1,0 +1,21 @@
+.light:hover::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 79px;
+  width: 41px;
+  height: 27px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/light.png);
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -1113px 0 !important;
+}
+
+.light {
+  position: absolute;
+  left: 50%;
+  top: 1800px;
+  z-index: 10;
+  width: 70px;
+  height: 105px;
+  margin-left: 720px;
+}

@@ -1,0 +1,17 @@
+.carousel-icon {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  width: 90px;
+}
+
+.carousel-icon.prev {
+  margin-left: -50px;
+}
+
+.carousel-icon.next {
+  margin-right: -50px;
+}
+
+.carousel-icon:hover {
+  opacity: 1;
+}

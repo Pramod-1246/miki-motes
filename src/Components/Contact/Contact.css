@@ -1,0 +1,80 @@
+.clsContact {
+  line-height: 22px;
+  position: relative;
+  top: 35px;
+  z-index: 11;
+  height: 720px;
+  width: 428px;
+  padding: 28px 0px 0px;
+  margin: auto;
+}
+.clsContact h2 {
+  color: rgb(232, 226, 221);
+  margin: 0px 0px 22px;
+  font-family: rabtus, Helvetica, Arial;
+  font-size: 18px;
+}
+
+.clsContact a:link,
+.clsContact a:visited,
+.clsContact a:active,
+.clsContact a:hover {
+  color: rgb(232, 226, 221);
+  text-decoration: none;
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(201, 169, 127);
+}
+textarea::-webkit-input-placeholder {
+  color: rgb(201, 169, 127);
+}
+.clsContact input.clsField,
+.clsContact textarea.clsField {
+  font-size: 18px;
+  font-family: rabtus, Helvetica, Arial;
+  line-height: 18px;
+  width: 400px;
+  height: 31px;
+  padding: 0px 8px;
+  margin: 0px 0px 12px 3px;
+  border: 0px none;
+  background: transparent;
+  resize: none;
+  outline: none;
+}
+.clsContact textarea.clsField {
+  height: 165px;
+  padding-top: 5px;
+  margin: 0px 0px 12px;
+}
+input.clsField:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea.clsField:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.clsContact input.clsSubmitBtn {
+  width: 83px;
+  height: 50px;
+  border: 0px none;
+  outline: none 0px;
+  background: url("../../Assets/images/arrows.png") no-repeat;
+  background-position: -438px 0px;
+}
+.clsContact input.clsSubmitBtn:hover {
+  background-position: -522px 0px;
+}
+.clsContact #oErrorMsg {
+  float: left;
+  width: 155px;
+  height: 50px;
+}
+.clsContact #oFormThanksMsg {
+  display: none;
+  color: rgb(204, 204, 204);
+  float: right;
+  height: 50px;
+  width: 155px;
+  margin-right: 19px;
+}

@@ -1,0 +1,79 @@
+.hat {
+  position: absolute;
+  left: 50%;
+  top: 1895px;
+  z-index: 11;
+  width: 79px;
+  height: 74px;
+  margin-left: -40px;
+  transition-delay: 2s;
+  margin-bottom: 100px;
+}
+.hat:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  width: 59px;
+  height: 34px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/light.png);
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -1044px 0 !important;
+}
+.hat:hover {
+  animation: hatjump 1s ease-in-out;
+}
+
+@keyframes hatjump {
+  0% {
+    top: 1895px;
+    /* margin-bottom: 0px; */
+  }
+  50% {
+    /* margin-bottom: 100px; */
+    top: 1860px;
+  }
+  100% {
+    /* margin-bottom: 0px; */
+    top: 1895px;
+  }
+}
+
+.tree_hat {
+  position: absolute;
+  left: 50%;
+  top: 318px;
+  z-index: 10;
+  width: 103px;
+  height: 140px;
+  margin-left: 1056px;
+  margin-bottom: 100px;
+}
+
+.tree_hat:before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  width: 43px;
+  height: 41px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/light.png);
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -2224px 0 !important;
+}
+
+.tree_hat:hover {
+  animation: tree_hatjump 1s ease-in-out;
+}
+
+@keyframes tree_hatjump {
+  0% {
+    top: 318px;
+  }
+  50% {
+    top: 285px;
+  }
+  100% {
+    top: 318px;
+  }
+}
