@@ -5,12 +5,12 @@
 nav{
 	z-index:20;
 	position:sticky;
-	left:50%;
+	left:25%;
 	top:-5px;
 	width:589px;
 	height:98px;
-	padding:59px 0 10px 0;
-	margin:0 27.5% 40px -300px;
+	padding:59px 0 0px 0;
+	margin:0 0 0 -300px;
 	background:url(../../Assets/images/menu_bar.png) no-repeat;
 }
 
@@ -34,4 +34,16 @@ nav ul li{
 
 nav ul li:hover{
 	color:#e7e7e7;
+}
+
+@media only screen and (max-width: 1024px)  {
+	nav {
+		left: 25%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	nav {
+		left: 15%;
+	}
 }
