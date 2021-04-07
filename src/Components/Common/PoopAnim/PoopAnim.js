@@ -8,7 +8,6 @@ function PoopAnim(props) {
 
     useEffect( () => {
         $(window).on('scroll', () => {
-            startPoopLoop();
             if(window.pageYOffset > props.scrollHide){
                 $("#"+props.id).hide()
             }

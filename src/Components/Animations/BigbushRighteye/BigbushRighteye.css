@@ -1,0 +1,28 @@
+.bigbush-righteye {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 240px;
+  margin-left: 426px;
+  width: 12px;
+  height: 12px;
+}
+.bigbush-righteye .anim {
+  width: 12px;
+  height: 12px;
+  background-image: url("http://www.mikimottes.com/images/illustrations/bigbush_righteye.png");
+  animation: bigbush_righteye 4s steps(7) infinite;
+  background-position: 0 0;
+}
+
+@keyframes bigbush_righteye {
+  0% {
+    background-position-x: 0;
+  }
+  90% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -84px;
+  }
+}
