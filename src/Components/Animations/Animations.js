@@ -72,11 +72,8 @@ export default function Animations() {
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
-<<<<<<< HEAD
       <Anime />
-=======
       <Boats />
->>>>>>> 3daa09b4a824e42912fb96f7a2d448d4bb72d028
     </>
   );
 }
