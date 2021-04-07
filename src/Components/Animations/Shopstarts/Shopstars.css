@@ -1,0 +1,47 @@
+.shopstars_left {
+  position: absolute;
+  left: 50%;
+  top: 1896px;
+  z-index: 10;
+  width: 119px;
+  height: 64px;
+  margin-left: -519px;
+  /* background: url() no-repeat 0 0; */
+  -webkit-animation: shopstars_left 2s infinite;
+  animation: shopstars_left 2s infinite;
+}
+
+@keyframes shopstars_left {
+  0% {
+    background-image: url(http://www.mikimottes.com/images/illustrations/shopstars_left_1.png);
+  }
+  50% {
+    background-image: url(http://www.mikimottes.com/images/illustrations/shopstars_left_2.png);
+  }
+  100% {
+    background-image: url(http://www.mikimottes.com/images/illustrations/shopstars_left_1.png);
+  }
+}
+.shopstars_right {
+  position: absolute;
+  left: 50%;
+  top: 1880px;
+  z-index: 10;
+  width: 120px;
+  height: 68px;
+  margin-left: 361px;
+  /* background: url() no-repeat 0 0; */
+  -webkit-animation: shopstars_right 2s infinite;
+  animation: shopstars_right 2s infinite;
+}
+@keyframes shopstars_right {
+  0% {
+    background-image: url(http://www.mikimottes.com/images/illustrations/shopstars_right_2.png);
+  }
+  50% {
+    background-image: url(http://www.mikimottes.com/images/illustrations/shopstars_right_1.png);
+  }
+  100% {
+    background-image: url(http://www.mikimottes.com/images/illustrations/shopstars_right_2.png);
+  }
+}
