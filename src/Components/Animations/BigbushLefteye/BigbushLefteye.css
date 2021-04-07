@@ -1,0 +1,28 @@
+.bigbush-lefteye {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 240px;
+  margin-left: 345px;
+  width: 16px;
+  height: 14px;
+}
+.bigbush-lefteye .anim {
+  width: 16px;
+  height: 14px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/bigbush_lefteye.png);
+  animation: bigbush_lefteye 6s steps(7) infinite;
+  background-position: 0 0;
+}
+
+@keyframes bigbush_lefteye {
+  0% {
+    background-position-x: 0;
+  }
+  95% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -112px;
+  }
+}
