@@ -1,0 +1,21 @@
+.peeping-eyes {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 260px;
+  margin-left: -337px;
+  width: 62px;
+  height: 20px;
+}
+.peeping-eyes .anim {
+  width: 62px;
+  height: 20px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/peeping_eyes.png);
+  animation: peeping_eyes 0.92s steps(23) infinite;
+}
+
+@keyframes peeping_eyes {
+  100% {
+    background-position: -1426px;
+  }
+}
