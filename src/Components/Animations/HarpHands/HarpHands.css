@@ -1,0 +1,35 @@
+.harp-hands {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 2852px;
+  margin-left: -405px;
+  width: 150px;
+  height: 150px;
+  padding: 20px 0 0 20px;
+}
+.harp-hands .anim {
+  background-position: 0 0;
+  width: 102px;
+  height: 72px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/harp_hands.png);
+  animation: harp_hands 5s steps(14) infinite;
+}
+
+@keyframes harp_hands {
+  0% {
+    background-position-x: 0;
+  }
+  10% {
+    background-position-x: -1428px;
+  }
+  10.01% {
+    background-position-x: 0;
+  }
+  20% {
+    background-position-x: -1428px;
+  }
+  100% {
+    background-position-x: -1428px;
+  }
+}
