@@ -1,0 +1,22 @@
+.pray_left{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 145px;
+    margin-left: -158px;
+    width: 69px;
+    height: 93px;
+}
+.pray_left .anim {
+    width: 69px;
+    height: 93px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/pray_left.png);
+    -webkit-animation: pray_left 0.8s steps(20) infinite;
+    animation: pray_left 0.8s steps(20) infinite;
+    
+}
+@keyframes pray_left{
+    100% {
+        background-position: -1380px;
+    }   
+}

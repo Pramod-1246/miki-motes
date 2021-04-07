@@ -1,13 +1,14 @@
-import React from "react";
-import "./Animations.css";
-import Hat from "./Hat/Hat";
+import React from 'react'
+import './Animations.css'
+import Hat from './Hat/Hat'
+import ImageAnim from '../Common/ImageAnim/ImageAnim'
+import Anime from './Left pray/Anime'
 import Shopstarts from "./Shopstarts/Shopstars";
-import ImageAnim from "../Common/ImageAnim/ImageAnim";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
-import ShopHands from "./ShopHands/ShopHands";
+import ShopHands from "./ShopHands/ShopHands"
 import Boats from './Boats/Boats';
 import PoopAnim from '../Common/PoopAnim/PoopAnim';
 import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim'; 
@@ -71,6 +72,7 @@ export default function Animations() {
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
+      <Anime />
       <Boats />
     </>
   );
