@@ -6,10 +6,16 @@
   width: 100%;
   z-index: 22;
   height: 100%;
-  width: 60%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 700px) {
+  .overlay {
+    display: none;
+  }
 }
 .overlay-header {
   width: 100%;
@@ -51,12 +57,20 @@
 .overlay-header-center {
   height: 102px;
   width: 70%;
-  background: url("http://www.mikimottes.com/images/lb_title.png") no-repeat;
-  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 30px;
+  position: relative;
+}
+
+.overlay-header-center img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .overlay-header-center h3 {
@@ -109,6 +123,7 @@
   margin-bottom: 0;
   display: flex;
   align-items: center;
+  text-align: right;
 }
 
 .overlay-header-right p::after {
@@ -123,6 +138,21 @@
 }
 
 .overlay-body {
-  width: 100%;
-  padding: 0 20px;
+  width: 70%;
+}
+
+.overlay-bottom {
+  width: 70%;
+  height: 65px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.overlay-bottom-img {
+  height: 100%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.overlay-bottom-img img {
+  height: 100%;
 }
