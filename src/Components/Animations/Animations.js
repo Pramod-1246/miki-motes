@@ -3,6 +3,8 @@ import './Animations.css'
 import Hat from './Hat/Hat'
 import Shopstarts from './Shopstarts/Shopstars'
 import ImageAnim from '../Common/ImageAnim/ImageAnim'
+import Anime from './Left pray/Anime'
+
 export default function Animations() {
     return (
         <>
@@ -17,6 +19,8 @@ export default function Animations() {
             <Shopstarts/>
             <ImageAnim name="pot_cover" top="1826px" marginLeft="-775px" width="74px" height="138px"
                     background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"/>
+                <Anime />
+                
         </>
     )
 }

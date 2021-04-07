@@ -4,15 +4,11 @@ import HeaderComponent from './Components/HeaderComponent/HeaderComponent';
 import Navbar from "./Components/Navbar/Navbar";
 import Mywork from "./Components/Mywork/Mywork";
 import AboutComponent from "./Components/AboutComponent/AboutComponent";
-<<<<<<< HEAD
-import Features from './Components/Features/Features';
-
-=======
 import Animations from "./Components/Animations/Animations";
 import Features from './Features';
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
->>>>>>> f29c674964a9e6d4b822ba174a8a404ef5c1ff69
+
 
 function App() {
   useEffect(() => {
