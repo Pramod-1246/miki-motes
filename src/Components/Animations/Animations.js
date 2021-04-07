@@ -9,7 +9,9 @@ import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
 import ShopHands from "./ShopHands/ShopHands"
-
+import Boats from './Boats/Boats';
+import PoopAnim from '../Common/PoopAnim/PoopAnim';
+import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim'; 
 
 export default function Animations() {
   return (
@@ -51,12 +53,30 @@ export default function Animations() {
         height="138px"
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"
       />
+      {
+            poopAnimDataArray.map( 
+                poopAnimData => <PoopAnim 
+                                    id={poopAnimData.id}
+                                    top={poopAnimData.top} 
+                                    marginLeft={poopAnimData.marginLeft} 
+                                    imageOffset={poopAnimData.imageOffset}
+                                    originX={poopAnimData.originX}
+                                    originY={poopAnimData.originY}
+                                    poopAnimDirectionClass={poopAnimData.poopAnimDirectionClass}
+                                    scrollHide={poopAnimData.scrollHide}
+                                />
+                )
+        }
       <BigbushLefteye />
       <BigbushRighteye />
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
+<<<<<<< HEAD
       <Anime />
+=======
+      <Boats />
+>>>>>>> 3daa09b4a824e42912fb96f7a2d448d4bb72d028
     </>
   );
 }
