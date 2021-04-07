@@ -1,0 +1,311 @@
+.boat1 {
+  position: absolute;
+  left: 85%;
+  top: 2701px;
+  z-index: 5;
+  width: 107px;
+  height: 81px;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat 0 0;
+  -webkit-animation: boat1 40s linear infinite;
+  animation: boat1 40s linear infinite;
+}
+@keyframes boat1 {
+  0% {
+    left: 85%;
+    top: 2701px;
+  }
+  15% {
+    left: 110%;
+    top: 2701px;
+  }
+  15% {
+    left: 110%;
+    top: 4000px;
+  }
+  15% {
+    left: -10%;
+    top: 4000px;
+  }
+  15% {
+    left: -10%;
+    top: 2701px;
+  }
+  25% {
+    left: -10%;
+    top: 2701px;
+  }
+  100% {
+    left: 85%;
+    top: 2701px;
+  }
+}
+
+.boat2 {
+  position: absolute;
+  left: 35%;
+  top: 2741px;
+  z-index: 7;
+  width: 136px;
+  height: 101px;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -117px 0;
+  -webkit-animation: boat2 36s linear infinite;
+  animation: boat2 36s linear infinite;
+}
+
+@keyframes boat2 {
+  0% {
+    left: 25%;
+    top: 2741px;
+  }
+  70% {
+    left: 110%;
+    top: 2741px;
+  }
+  70% {
+    left: 110%;
+    top: 4000px;
+  }
+  70% {
+    left: -10%;
+    top: 4000px;
+  }
+  70% {
+    left: -10%;
+    top: 2741px;
+  }
+  80% {
+    left: -10%;
+    top: 2741px;
+  }
+  100% {
+    left: 25%;
+    top: 2741px;
+  }
+}
+
+.boat4 {
+  position: absolute;
+  left: 10%;
+  top: 2691px;
+  z-index: 4;
+  width: 85px;
+  height: 71px;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -389px 0;
+  -webkit-animation: boat4 40s linear infinite;
+  animation: boat4 40s linear infinite;
+}
+
+@keyframes boat4 {
+  0% {
+    left: 10%;
+    top: 2691px;
+  }
+  10% {
+    left: -10%;
+    top: 2691px;
+  }
+  10% {
+    left: -10%;
+    top: 4000px;
+  }
+  10% {
+    left: 110%;
+    top: 4000px;
+  }
+  10% {
+    left: 110%;
+    top: 2691px;
+  }
+  20% {
+    left: 110%;
+    top: 2691px;
+  }
+  100% {
+    left: 10%;
+    top: 2691px;
+  }
+}
+.boat3 {
+  position: absolute;
+  left: 15%;
+  top: 2698px;
+  z-index: 6;
+  width: 76px;
+  height: 101px;
+  padding: 68px 0 0 25px;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -263px 0;
+  -webkit-animation: boat3 60s linear infinite;
+  animation: boat3 60s linear infinite;
+}
+
+@keyframes boat3 {
+  0% {
+    left: 15%;
+    top: 2698px;
+  }
+  15% {
+    left: -10%;
+    top: 2698px;
+  }
+  15% {
+    left: -10%;
+    top: 4000px;
+  }
+  15% {
+    left: 110%;
+    top: 4000px;
+  }
+  15% {
+    left: 110%;
+    top: 2698px;
+  }
+  25% {
+    left: 110%;
+    top: 2698px;
+  }
+  100% {
+    left: 15%;
+    top: 2698px;
+  }
+}
+
+.boat3 .anim {
+  width: 30px;
+  height: 30px;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -349px 0;
+  -webkit-animation: boat3anim 1s linear infinite;
+  animation: boat3anim 1s linear infinite;
+  transform-origin: 15px 15px;
+}
+@keyframes boat3anim {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.poo_boat {
+  position: absolute;
+  left: 5%;
+  top: 2783px;
+  z-index: 8;
+  width: 67px;
+  height: 69px;
+  padding: 0 0 0 42px;
+  background: url(http://www.mikimottes.com/images/illustrations/poo_boat.png)
+    no-repeat 0 0;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -1236px 0;
+  -webkit-animation: poo_boat 50s linear infinite;
+  animation: poo_boat 50s linear infinite;
+}
+@keyframes poo_boat {
+  0% {
+    left: 15%;
+    top: 2783px;
+  }
+  15% {
+    left: -10%;
+    top: 2783px;
+  }
+  15% {
+    left: -10%;
+    top: 4000px;
+  }
+  15% {
+    left: 110%;
+    top: 4000px;
+  }
+  15% {
+    left: 110%;
+    top: 2783px;
+  }
+  25% {
+    left: 110%;
+    top: 2783px;
+  }
+  100% {
+    left: 15%;
+    top: 2783px;
+  }
+}
+.poo_boat .anim {
+  width: 21px;
+  height: 16px;
+  background: url(http://www.mikimottes.com/images/illustrations/poo_boat_flag.png);
+  -webkit-animation: poo_boat_anim 0.3s steps(4) infinite;
+  animation: poo_boat_anim 0.3s steps(4) infinite;
+}
+@keyframes poo_boat_anim {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -84px;
+  }
+}
+.cumber_boat {
+  position: absolute;
+  left: 8%;
+  top: 2800px;
+  z-index: 9;
+  width: 74px;
+  height: 76px;
+  padding: 0 0 0 30px;
+  background: url(http://www.mikimottes.com/images/illustrations/cumber_boat.png)
+    no-repeat 0 0;
+  background: url(http://www.mikimottes.com/images/illustrations/all.png)
+    no-repeat -857px 0 !important;
+  -webkit-animation: cumber_boat 40s linear infinite;
+  animation: cumber_boat 40s linear infinite;
+}
+@keyframes cumber_boat {
+  0% {
+    left: 8%;
+    top: 2800px;
+  }
+  75% {
+    left: 110%;
+    top: 2800px;
+  }
+  75% {
+    left: 110%;
+    top: 4000px;
+  }
+  75% {
+    left: -10%;
+    top: 4000px;
+  }
+  75% {
+    left: -10%;
+    top: 2800px;
+  }
+  85% {
+    left: -10%;
+    top: 2800px;
+  }
+  100% {
+    left: 8%;
+    top: 2800px;
+  }
+}
+.cumber_boat .anim {
+  position: relative;
+  top: -5px;
+  width: 16px;
+  height: 10px;
+  background: url(http://www.mikimottes.com/images/illustrations/boat_cumber_hair.png);
+  -webkit-animation: cumber_boat_anim 0.3s steps(4) infinite;
+  animation: cumber_boat_anim 0.3s steps(4) infinite;
+}
+@keyframes cumber_boat_anim {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -64px;
+  }
+}

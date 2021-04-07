@@ -2,6 +2,7 @@ import React from 'react'
 import './Animations.css'
 import Hat from './Hat/Hat'
 import Shopstarts from './Shopstarts/Shopstars'
+import Boats from './Boats/Boats'
 import ImageAnim from '../Common/ImageAnim/ImageAnim'
 export default function Animations() {
     return (
@@ -17,6 +18,7 @@ export default function Animations() {
             <Shopstarts/>
             <ImageAnim name="pot_cover" top="1826px" marginLeft="-775px" width="74px" height="138px"
                     background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"/>
+            <Boats/>
         </>
     )
 }
