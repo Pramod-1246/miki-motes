@@ -8,6 +8,7 @@ import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
 import ShopHands from "./ShopHands/ShopHands";
+import Boats from './Boats/Boats'
 
 export default function Animations() {
   return (
@@ -54,6 +55,7 @@ export default function Animations() {
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
+      <Boats />
     </>
   );
 }
