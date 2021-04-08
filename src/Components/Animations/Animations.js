@@ -22,7 +22,8 @@ import RightPray from './RightPray/RightPray'
 import Cucumber from './Cucumber/Cucumber'
 import Sos from './Sos/Sos'
 import Bulbs from './Bulbs/Bulbs'
-
+import Farting from './Farting/Farting'
+import Swinglegs from './Swinglegs/Swinglegs'
 export default function Animations() {
   return (
     <>
@@ -63,6 +64,7 @@ export default function Animations() {
         height="138px"
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"
       />
+      <Boats />
       <PoopAnimation />
       <BigbushLefteye />
       <BigbushRighteye />
@@ -75,7 +77,6 @@ export default function Animations() {
       <DuckFaceEye />
       <ShopEyes />
       <Anime />
-      <Boats />
       <RightPray />
       <CreaturesAnimations/>
       <FallingCreatureAnimation />
@@ -92,6 +93,8 @@ export default function Animations() {
       <Cucumber />
       <Sos />
       <Bulbs />
+      <Swinglegs/>
+      <Farting/>
     </>
   );
 }

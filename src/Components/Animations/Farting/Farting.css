@@ -1,0 +1,35 @@
+.farting {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 1513px;
+  margin-left: 793px;
+  width: 365px;
+  height: 215px;
+}
+
+@keyframes farting {
+  0% {
+    background-position-x: 0;
+  }
+
+  50% {
+    background-position-x: -17885px;
+  }
+  100% {
+    background-position-x: -17885px;
+  }
+}
+
+div.wrap div.anim {
+  background-position: 0 0;
+  /* background-repeat: no-repeat; */
+}
+
+.farting .anim {
+  width: 365px;
+  height: 215px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/farting.png);
+  -webkit-animation: farting 4s steps(49) infinite;
+  animation: farting 4s steps(49) infinite;
+}
