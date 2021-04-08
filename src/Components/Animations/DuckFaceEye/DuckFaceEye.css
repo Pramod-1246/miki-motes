@@ -1,0 +1,36 @@
+.duckfaceeye
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 104px;
+    margin-left: 385px;
+    width: 12px;
+    height: 12px;
+}
+
+.duckfaceeye .anim
+{
+    width: 12px;
+    height: 12px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/duckface_eye.png);
+    animation: duckface_eye 5s steps(4) infinite;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes duckface_eye {
+	0% {
+        background-position: 0;
+    }
+    
+    96% {
+        background-position: 0;
+    }
+    98% {
+        background-position: -48px;
+    }
+    100% {
+        background-position: 0;
+    }
+}

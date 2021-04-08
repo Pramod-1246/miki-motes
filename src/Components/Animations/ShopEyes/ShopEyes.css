@@ -1,0 +1,26 @@
+.shopeyes
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 1950px;
+    margin-left: -467px;
+    width: 30px;
+    height: 18px;
+}
+
+.shopeyes .anim
+{
+    width: 30px;
+    height: 18px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/shop_eyes.png);
+    animation: shop_eyes 0.76s steps(19) infinite;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes shop_eyes {
+	100% {
+        background-position: -570px;
+    }
+}

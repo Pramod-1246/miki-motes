@@ -6,8 +6,13 @@ import Anime from './LeftPray/Anime'
 import Shopstarts from "./Shopstarts/Shopstars";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
+import PropellorLeft from "./PropellorLeft/PropellorLeft";
+import PropellorRight from "./PropellorRight/PropellorRight";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
+import Papinoy from "./Papinoy/Papinoy";
+import DuckFaceEye from "./DuckFaceEye/DuckFaceEye";
+import ShopEyes from "./ShopEyes/ShopEyes";
 import ShopHands from "./ShopHands/ShopHands"
 import Boats from './Boats/Boats';
 import PoopAnim from '../Common/PoopAnim/PoopAnim';
@@ -76,6 +81,11 @@ export default function Animations() {
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
+      <PropellorLeft />
+      <Papinoy />
+      <PropellorRight />
+      <DuckFaceEye />
+      <ShopEyes />
       <Anime />
       <Boats />
       <RightPray />

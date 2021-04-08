@@ -1,0 +1,26 @@
+.propellor-left
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 46px;
+    margin-left: -536px;
+    width: 67px;
+    height: 67px;
+}
+
+.propellor-left .anim
+{
+    width: 67px;
+    height: 67px;
+    background: url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1416px 0;
+    animation: propellor_left 2s linear infinite;
+    transform-origin:37px 42px;
+}
+
+@keyframes propellor_left {
+	100% {
+		-webkit-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}
