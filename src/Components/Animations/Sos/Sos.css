@@ -1,0 +1,21 @@
+.sos{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 2929px;
+    margin-left: -85px;
+    width: 174px;
+    height: 78px;
+}
+.sos .anim {
+    width: 174px;
+    height: 78px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/sos.png);
+    -webkit-animation: sos 0.24s steps(6) infinite;
+    animation: sos 0.24s steps(6) infinite;
+}
+@keyframes sos{
+    100% {
+        background-position: -1044px;
+    }
+}
