@@ -7,6 +7,7 @@
     transform: rotate(0deg);
 }
 
+
 .poop-anim-right {
     animation: poop_right 0.5s linear infinite
 }

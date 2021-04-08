@@ -15,8 +15,9 @@ import DuckFaceEye from "./DuckFaceEye/DuckFaceEye";
 import ShopEyes from "./ShopEyes/ShopEyes";
 import ShopHands from "./ShopHands/ShopHands"
 import Boats from './Boats/Boats';
-import PoopAnim from '../Common/PoopAnim/PoopAnim';
-import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim'; 
+import PoopAnimation from './PoopAnimation/PoopAnimation';
+import CreaturesAnimations from './CreaturesAnimations/CreaturesAnimations';
+import FallingCreatureAnimation from './FallingCreatureAnimation/FallingCreatureAnimation'
 import RightPray from './RightPray/RightPray'
 import Cucumber from './Cucumber/Cucumber'
 import Sos from './Sos/Sos'
@@ -78,6 +79,7 @@ export default function Animations() {
                                 />
                 )
         }
+      <PoopAnimation />
       <BigbushLefteye />
       <BigbushRighteye />
       <PeepingEyes />
@@ -90,6 +92,18 @@ export default function Animations() {
       <ShopEyes />
       <Anime />
       <RightPray />
+      <CreaturesAnimations/>
+      <FallingCreatureAnimation />
+      <ImageAnim 
+        name="tunnel_cover"
+        position="absolute"
+        top="736px"
+        zIndex="12"
+        marginLeft="-765px"
+        width="36px"
+        height="96px"
+        background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -2277px 0"
+      />
       <Cucumber />
       <Sos />
       <Bulbs />

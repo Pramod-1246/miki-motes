@@ -1,0 +1,14 @@
+#falling_creature { 
+    position: absolute; 
+    top: 1780px; 
+    left: 50%; 
+    z-index: 11; 
+    margin-left: -755px; 
+    width: 55px; 
+    height: 95px; 
+    background: url("http://www.mikimottes.com/images/illustrations/all.png") -941px 0px no-repeat !important; 
+}
+#falling_creature.clsFixed { 
+    position: fixed; 
+    top: 366px; 
+}

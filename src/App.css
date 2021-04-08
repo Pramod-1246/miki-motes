@@ -251,3 +251,16 @@ h3 {
   height: 164px;
   background: url(http://www.mikimottes.com/images/frames.png) no-repeat;
 }
+
+
+#pink-creature{
+	position:absolute;
+	top:1080px;
+	left:50%;
+	margin-left:-900px;
+	z-index:9;
+	
+	width:62px;
+	height:192px;
+	background:url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1164px 0;
+} 
