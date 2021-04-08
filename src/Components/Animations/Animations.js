@@ -2,7 +2,7 @@ import React from 'react'
 import './Animations.css'
 import Hat from './Hat/Hat'
 import ImageAnim from '../Common/ImageAnim/ImageAnim'
-import Anime from './Left pray/Anime'
+import Anime from './LeftPray/Anime'
 import Shopstarts from "./Shopstarts/Shopstars";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
@@ -12,6 +12,8 @@ import ShopHands from "./ShopHands/ShopHands"
 import Boats from './Boats/Boats';
 import PoopAnim from '../Common/PoopAnim/PoopAnim';
 import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim'; 
+import RightPray from './RightPray/RightPray'
+import Cucumber from './Cucumber/Cucumber'
 
 export default function Animations() {
   return (
@@ -74,6 +76,8 @@ export default function Animations() {
       <ShopHands />
       <Anime />
       <Boats />
+      <RightPray />
+      <Cucumber />
     </>
   );
 }

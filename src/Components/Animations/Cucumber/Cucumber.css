@@ -1,0 +1,21 @@
+.cumber_hand{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 59px;
+    margin-left: 214px;
+    width: 26px;
+    height: 36px;
+}
+.cumber_hand .anim {
+    width: 26px;
+    height: 36px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/cumber_hand.png);
+    -webkit-animation: cumber_hand 0.44s steps(11) infinite;
+    animation: cumber_hand 0.44s steps(11) infinite;
+}
+@keyframes cumber_hand{
+    100% {
+        background-position: -286px;
+    }
+}
