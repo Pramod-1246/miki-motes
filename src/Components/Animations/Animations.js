@@ -12,6 +12,7 @@ import HarpHands from "./HarpHands/HarpHands";
 import ShopHands from "./ShopHands/ShopHands";
 import Papinoy from "./Papinoy/Papinoy";
 import DuckFaceEye from "./DuckFaceEye/DuckFaceEye";
+import ShopEyes from "./ShopEyes/ShopEyes";
 
 export default function Animations() {
   return (
@@ -62,6 +63,7 @@ export default function Animations() {
       <Papinoy />
       <PropellorRight />
       <DuckFaceEye />
+      <ShopEyes />
     </>
   );
 }
