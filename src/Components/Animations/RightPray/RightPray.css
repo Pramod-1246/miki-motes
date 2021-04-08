@@ -1,0 +1,21 @@
+.pray_right{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 215px;
+    margin-left: 140px;
+    width: 80px;
+    height: 32px;
+}
+.pray_right .anim {
+    width: 80px;
+    height: 32px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/pray_right.png);
+    -webkit-animation: pray_right 0.68s steps(17) infinite;
+    animation: pray_right 0.68s steps(17) infinite;
+}
+@keyframes pray_right{
+    100% {
+        background-position: -1360px;
+    }
+}

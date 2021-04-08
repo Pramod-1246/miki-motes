@@ -2,17 +2,26 @@ import React from 'react'
 import './Animations.css'
 import Hat from './Hat/Hat'
 import ImageAnim from '../Common/ImageAnim/ImageAnim'
-import Anime from './Left pray/Anime'
+import Anime from './LeftPray/Anime'
 import Shopstarts from "./Shopstarts/Shopstars";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
+import PropellorLeft from "./PropellorLeft/PropellorLeft";
+import PropellorRight from "./PropellorRight/PropellorRight";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
+import Papinoy from "./Papinoy/Papinoy";
+import DuckFaceEye from "./DuckFaceEye/DuckFaceEye";
+import ShopEyes from "./ShopEyes/ShopEyes";
 import ShopHands from "./ShopHands/ShopHands"
 import Boats from './Boats/Boats';
 import PoopAnimation from './PoopAnimation/PoopAnimation';
 import CreaturesAnimations from './CreaturesAnimations/CreaturesAnimations';
 import FallingCreatureAnimation from './FallingCreatureAnimation/FallingCreatureAnimation'
+import RightPray from './RightPray/RightPray'
+import Cucumber from './Cucumber/Cucumber'
+import Sos from './Sos/Sos'
+import Bulbs from './Bulbs/Bulbs'
 
 export default function Animations() {
   return (
@@ -60,8 +69,14 @@ export default function Animations() {
       <PeepingEyes />
       <HarpHands />
       <ShopHands />
+      <PropellorLeft />
+      <Papinoy />
+      <PropellorRight />
+      <DuckFaceEye />
+      <ShopEyes />
       <Anime />
       <Boats />
+      <RightPray />
       <CreaturesAnimations/>
       <FallingCreatureAnimation />
       <ImageAnim 
@@ -74,30 +89,9 @@ export default function Animations() {
         height="96px"
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -2277px 0"
       />
-
-      {/* #oAnimations .tunnel_cover{
-	position:absolute;
-	top:736px;
-	left:50%;
-	z-index:12;
-	margin-left:-765px;
-	width:36px;
-	height:96px;
-	background:url(../images/illustrations/tunnel_cover.png);
-	background:url(../images/illustrations/all.png) no-repeat -2277px 0;
-}
-position: props.position || `absolute`,
-        top: props.top || `none`,
-        bottom:props.bottom || 'none',
-        left: props.left || '50%',
-        zIndex: props.zIndex || 12,
-        marginLeft: props.marginLeft,
-        width: props.width,
-        height: props.height,
-        background: props.background,
-
- */}
-
+      <Cucumber />
+      <Sos />
+      <Bulbs />
     </>
   );
 }
