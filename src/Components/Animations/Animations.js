@@ -10,8 +10,9 @@ import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
 import ShopHands from "./ShopHands/ShopHands"
 import Boats from './Boats/Boats';
-import PoopAnim from '../Common/PoopAnim/PoopAnim';
-import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim'; 
+import PoopAnimation from './PoopAnimation/PoopAnimation';
+import CreaturesAnimations from './CreaturesAnimations/CreaturesAnimations';
+import FallingCreatureAnimation from './FallingCreatureAnimation/FallingCreatureAnimation'
 
 export default function Animations() {
   return (
@@ -53,20 +54,7 @@ export default function Animations() {
         height="138px"
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"
       />
-      {
-            poopAnimDataArray.map( 
-                poopAnimData => <PoopAnim 
-                                    id={poopAnimData.id}
-                                    top={poopAnimData.top} 
-                                    marginLeft={poopAnimData.marginLeft} 
-                                    imageOffset={poopAnimData.imageOffset}
-                                    originX={poopAnimData.originX}
-                                    originY={poopAnimData.originY}
-                                    poopAnimDirectionClass={poopAnimData.poopAnimDirectionClass}
-                                    scrollHide={poopAnimData.scrollHide}
-                                />
-                )
-        }
+      <PoopAnimation />
       <BigbushLefteye />
       <BigbushRighteye />
       <PeepingEyes />
@@ -74,6 +62,42 @@ export default function Animations() {
       <ShopHands />
       <Anime />
       <Boats />
+      <CreaturesAnimations/>
+      <FallingCreatureAnimation />
+      <ImageAnim 
+        name="tunnel_cover"
+        position="absolute"
+        top="736px"
+        zIndex="12"
+        marginLeft="-765px"
+        width="36px"
+        height="96px"
+        background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -2277px 0"
+      />
+
+      {/* #oAnimations .tunnel_cover{
+	position:absolute;
+	top:736px;
+	left:50%;
+	z-index:12;
+	margin-left:-765px;
+	width:36px;
+	height:96px;
+	background:url(../images/illustrations/tunnel_cover.png);
+	background:url(../images/illustrations/all.png) no-repeat -2277px 0;
+}
+position: props.position || `absolute`,
+        top: props.top || `none`,
+        bottom:props.bottom || 'none',
+        left: props.left || '50%',
+        zIndex: props.zIndex || 12,
+        marginLeft: props.marginLeft,
+        width: props.width,
+        height: props.height,
+        background: props.background,
+
+ */}
+
     </>
   );
 }
