@@ -65,20 +65,6 @@ export default function Animations() {
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"
       />
       <Boats />
-      {
-            poopAnimDataArray.map( 
-                poopAnimData => <PoopAnim 
-                                    id={poopAnimData.id}
-                                    top={poopAnimData.top} 
-                                    marginLeft={poopAnimData.marginLeft} 
-                                    imageOffset={poopAnimData.imageOffset}
-                                    originX={poopAnimData.originX}
-                                    originY={poopAnimData.originY}
-                                    poopAnimDirectionClass={poopAnimData.poopAnimDirectionClass}
-                                    scrollHide={poopAnimData.scrollHide}
-                                />
-                )
-        }
       <PoopAnimation />
       <BigbushLefteye />
       <BigbushRighteye />
