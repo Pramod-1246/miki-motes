@@ -1,0 +1,25 @@
+.poop {
+    position: fixed;
+    left: 50%;
+    z-index: 11;
+    width: 15px;
+    height: 10px;
+    transform: rotate(0deg);
+}
+
+.poop-anim-right {
+    animation: poop_right 0.5s linear infinite
+}
+
+.poop-anim-left {
+    animation: poop_left 0.5s linear infinite;
+}
+
+
+@keyframes poop_left {
+    100% { transform:rotate(-360deg) }
+}
+
+@keyframes poop_right {
+    100% { transform:rotate(360deg) }
+}

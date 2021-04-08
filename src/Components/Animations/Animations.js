@@ -1,18 +1,26 @@
-import React from "react";
-import "./Animations.css";
-import Hat from "./Hat/Hat";
+import React from 'react'
+import './Animations.css'
+import Hat from './Hat/Hat'
+import ImageAnim from '../Common/ImageAnim/ImageAnim'
+import Anime from './LeftPray/Anime'
 import Shopstarts from "./Shopstarts/Shopstars";
-import ImageAnim from "../Common/ImageAnim/ImageAnim";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
 import PropellorLeft from "./PropellorLeft/PropellorLeft";
 import PropellorRight from "./PropellorRight/PropellorRight";
 import PeepingEyes from "./PeepingEyes/PeepingEyes";
 import HarpHands from "./HarpHands/HarpHands";
-import ShopHands from "./ShopHands/ShopHands";
 import Papinoy from "./Papinoy/Papinoy";
 import DuckFaceEye from "./DuckFaceEye/DuckFaceEye";
 import ShopEyes from "./ShopEyes/ShopEyes";
+import ShopHands from "./ShopHands/ShopHands"
+import Boats from './Boats/Boats';
+import PoopAnim from '../Common/PoopAnim/PoopAnim';
+import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim'; 
+import RightPray from './RightPray/RightPray'
+import Cucumber from './Cucumber/Cucumber'
+import Sos from './Sos/Sos'
+import Bulbs from './Bulbs/Bulbs'
 
 export default function Animations() {
   return (
@@ -54,6 +62,20 @@ export default function Animations() {
         height="138px"
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"
       />
+      {
+            poopAnimDataArray.map( 
+                poopAnimData => <PoopAnim 
+                                    id={poopAnimData.id}
+                                    top={poopAnimData.top} 
+                                    marginLeft={poopAnimData.marginLeft} 
+                                    imageOffset={poopAnimData.imageOffset}
+                                    originX={poopAnimData.originX}
+                                    originY={poopAnimData.originY}
+                                    poopAnimDirectionClass={poopAnimData.poopAnimDirectionClass}
+                                    scrollHide={poopAnimData.scrollHide}
+                                />
+                )
+        }
       <BigbushLefteye />
       <BigbushRighteye />
       <PeepingEyes />
@@ -64,6 +86,12 @@ export default function Animations() {
       <PropellorRight />
       <DuckFaceEye />
       <ShopEyes />
+      <Anime />
+      <Boats />
+      <RightPray />
+      <Cucumber />
+      <Sos />
+      <Bulbs />
     </>
   );
 }
