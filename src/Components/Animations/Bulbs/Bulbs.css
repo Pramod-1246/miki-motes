@@ -1,0 +1,21 @@
+.bulbs{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 1972px;
+    margin-left: -630px;
+    width: 1249px;
+    height: 69px;
+}
+.bulbs .anim {
+    width: 1249px;
+    height: 69px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/bulbs.png);
+    -webkit-animation: bulbs 1s steps(2) infinite;
+    animation: bulbs 1s steps(2) infinite;
+}
+@keyframes bulbs{
+    100% {
+        background-position-x: -2498px;
+    }
+}

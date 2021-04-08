@@ -15,6 +15,7 @@ import { poopAnimDataArray } from '../Common/PoopAnim/PoopAnim';
 import RightPray from './RightPray/RightPray'
 import Cucumber from './Cucumber/Cucumber'
 import Sos from './Sos/Sos'
+import Bulbs from './Bulbs/Bulbs'
 
 export default function Animations() {
   return (
@@ -80,6 +81,7 @@ export default function Animations() {
       <RightPray />
       <Cucumber />
       <Sos />
+      <Bulbs />
     </>
   );
 }

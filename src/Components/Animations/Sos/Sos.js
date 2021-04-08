@@ -4,8 +4,8 @@ import './Sos.css'
 function Sos() {
     return (
         <div>
-            <div class="sos">
-            <div class="anim"></div>
+            <div className="sos">
+            <div className="anim"></div>
             </div>
         </div>
     )
