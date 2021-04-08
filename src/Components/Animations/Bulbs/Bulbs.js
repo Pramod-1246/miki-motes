@@ -1,14 +1,14 @@
 import React from 'react'
-import './Cucumber.css'
+import './Bulbs.css'
 
-function Cucumber() {
+function Bulbs() {
     return (
         <div>
-            <div className="wrap cumber_hand">
+            <div className="bulbs">
             <div className="anim"></div>
             </div>
         </div>
     )
 }
 
-export default Cucumber
+export default Bulbs
