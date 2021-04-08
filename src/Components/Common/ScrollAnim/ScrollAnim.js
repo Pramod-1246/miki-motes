@@ -28,7 +28,6 @@ export default class ScrollAnim{
                 this.topPosition = this.initialtop;
             }
             anim.css({top:this.topPosition+"px"})
-            console.log(this.topPosition);
         }
 
 

@@ -61,6 +61,7 @@ const PoopAnimation = () => {
                 poopAnimDataArray.map( 
                     poopAnimData => 
                         <PoopAnim 
+                            key={poopAnimData.id}
                             id={poopAnimData.id}
                             top={poopAnimData.top} 
                             marginLeft={poopAnimData.marginLeft} 
