@@ -24,6 +24,7 @@ import Sos from './Sos/Sos'
 import Bulbs from './Bulbs/Bulbs'
 import Farting from './Farting/Farting'
 import Swinglegs from './Swinglegs/Swinglegs'
+import Flies from './FLies/Flies'
 export default function Animations() {
   return (
     <>
@@ -95,6 +96,7 @@ export default function Animations() {
       <Bulbs />
       <Swinglegs/>
       <Farting/>
+      <Flies />
     </>
   );
 }
