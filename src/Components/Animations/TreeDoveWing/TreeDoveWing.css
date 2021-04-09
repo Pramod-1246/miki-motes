@@ -1,0 +1,26 @@
+.tree-dove-wing {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 86px;
+  margin-left: -1022px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 0 0 0;
+}
+.tree-dove-wing:hover .anim {
+  animation: tree_dove_wing 0.2s steps(5) infinite;
+  animation-iteration-count: 2 !important;
+}
+.tree-dove-wing .anim {
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/tree_dove_wing.png);
+}
+
+@keyframes tree_dove_wing {
+  100% {
+    background-position: -125px;
+  }
+}

@@ -1,0 +1,22 @@
+.doves-eating {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 285px;
+  margin-left: -975px;
+  width: 79px;
+  height: 38px;
+}
+.doves-eating .anim {
+  width: 79px;
+  height: 38px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/doves_eating.png);
+  animation: doves_eating 0.76s steps(19) infinite;
+  background-position: 0 0;
+}
+
+@keyframes doves_eating {
+  100% {
+    background-position: -1501px;
+  }
+}
