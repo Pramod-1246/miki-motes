@@ -1,8 +1,8 @@
-import React from 'react'
-import './Animations.css'
-import Hat from './Hat/Hat'
-import ImageAnim from '../Common/ImageAnim/ImageAnim'
-import Anime from './LeftPray/Anime'
+import React from "react";
+import "./Animations.css";
+import Hat from "./Hat/Hat";
+import ImageAnim from "../Common/ImageAnim/ImageAnim";
+import Anime from "./LeftPray/Anime";
 import Shopstarts from "./Shopstarts/Shopstars";
 import BigbushLefteye from "./BigbushLefteye/BigbushLefteye";
 import BigbushRighteye from "./BigbushRighteye/BigbushRighteye";
@@ -13,25 +13,30 @@ import HarpHands from "./HarpHands/HarpHands";
 import Papinoy from "./Papinoy/Papinoy";
 import DuckFaceEye from "./DuckFaceEye/DuckFaceEye";
 import ShopEyes from "./ShopEyes/ShopEyes";
-import ShopHands from "./ShopHands/ShopHands"
-import Boats from './Boats/Boats';
-import PoopAnimation from './PoopAnimation/PoopAnimation';
-import CreaturesAnimations from './CreaturesAnimations/CreaturesAnimations';
-import FallingCreatureAnimation from './FallingCreatureAnimation/FallingCreatureAnimation'
-import RightPray from './RightPray/RightPray'
-import Cucumber from './Cucumber/Cucumber'
-import Sos from './Sos/Sos'
-import Bulbs from './Bulbs/Bulbs'
-import VeryOldManAnimation from './VeryOldManAnimation/VeryOldManAnimation'
-import AppleAnimation from './AppleAnimation/AppleAnimation'
-import RopeAnimation from './RopeAnimation/RopeAnimation'
-import RabbitEarsAnimation from './RabbitEarsAnimation/RabbitEarsAnimation'
-import CashierTainAnimation from './CashierTailAnimation/CashierTainAnimation'
-import Farting from './Farting/Farting'
-import Swinglegs from './Swinglegs/Swinglegs'
-import Flies from './FLies/Flies'
-import SellerEyes from './SellerEyes/SellerEyes'
-import HandBeer from './HandBeer/HandBeer'
+import ShopHands from "./ShopHands/ShopHands";
+import Boats from "./Boats/Boats";
+import PoopAnimation from "./PoopAnimation/PoopAnimation";
+import CreaturesAnimations from "./CreaturesAnimations/CreaturesAnimations";
+import FallingCreatureAnimation from "./FallingCreatureAnimation/FallingCreatureAnimation";
+import RightPray from "./RightPray/RightPray";
+import Cucumber from "./Cucumber/Cucumber";
+import Sos from "./Sos/Sos";
+import Bulbs from "./Bulbs/Bulbs";
+import Farting from "./Farting/Farting";
+import Swinglegs from "./Swinglegs/Swinglegs";
+import Flies from "./FLies/Flies";
+import DovesEating from "./DovesEating/DovesEating";
+import Oldman from "./Oldman/Oldman";
+import TreeDoveWing from "./TreeDoveWing/TreeDoveWing";
+import TreeDoveEyes from "./TreeDoveEyes/TreeDoveEyes";
+import WaterPoo from "./WaterPoo/WaterPoo";
+import VeryOldManAnimation from "./VeryOldManAnimation/VeryOldManAnimation";
+import AppleAnimation from "./AppleAnimation/AppleAnimation";
+import RopeAnimation from "./RopeAnimation/RopeAnimation";
+import RabbitEarsAnimation from "./RabbitEarsAnimation/RabbitEarsAnimation";
+import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
+import SellerEyes from "./SellerEyes/SellerEyes";
+import HandBeer from "./HandBeer/HandBeer";
 export default function Animations() {
   return (
     <>
@@ -86,9 +91,9 @@ export default function Animations() {
       <ShopEyes />
       <Anime />
       <RightPray />
-      <CreaturesAnimations/>
+      <CreaturesAnimations />
       <FallingCreatureAnimation />
-      <ImageAnim 
+      <ImageAnim
         name="tunnel_cover"
         position="absolute"
         top="736px"
@@ -101,13 +106,21 @@ export default function Animations() {
       <Cucumber />
       <Sos />
       <Bulbs />
+      <Swinglegs />
+      <Farting />
+      <Flies />
+      <DovesEating />
+      <Oldman />
+      <TreeDoveWing />
+      <TreeDoveEyes />
+      <WaterPoo />
       <VeryOldManAnimation />
       <AppleAnimation />
       <RopeAnimation />
       <RabbitEarsAnimation />
       <CashierTainAnimation />
-      <Swinglegs/>
-      <Farting/>
+      <Swinglegs />
+      <Farting />
       <Flies />
       <SellerEyes />
       <HandBeer />

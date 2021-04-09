@@ -1,0 +1,28 @@
+.tree-dove-eyes {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 94px;
+  margin-left: -1000px;
+  width: 14px;
+  height: 8px;
+}
+
+.tree-dove-eyes .anim {
+  width: 14px;
+  height: 8px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/tree_dove_eyes.png);
+  animation: tree_dove_eyes 3s steps(6) infinite;
+}
+
+@keyframes tree_dove_eyes {
+  0% {
+    background-position-x: 0;
+  }
+  90% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -84px;
+  }
+}

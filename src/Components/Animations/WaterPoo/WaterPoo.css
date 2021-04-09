@@ -1,0 +1,23 @@
+.water-poo {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 2845px;
+  margin-left: 168px;
+  width: 98px;
+  height: 61px;
+}
+
+.water-poo .anim {
+  background-position: 0 0;
+  width: 98px;
+  height: 61px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/water_poo.png);
+  animation: water_poo 0.44s steps(11) infinite;
+}
+
+@keyframes water_poo {
+  100% {
+    background-position: -1078px;
+  }
+}
