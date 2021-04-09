@@ -1,0 +1,21 @@
+.flies{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 580px;
+    margin-left: 701px;
+    width: 111px;
+    height: 78px;
+}
+.flies .anim {
+    width: 111px;
+    height: 78px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/flies.png);
+    -webkit-animation: flies 0.84s steps(21) infinite;
+    animation: flies 0.84s steps(21) infinite;
+}
+@keyframes flies{
+    100% {
+        background-position: -2331px;
+    }
+}
