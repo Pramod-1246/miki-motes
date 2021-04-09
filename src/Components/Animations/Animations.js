@@ -26,6 +26,7 @@ import Farting from './Farting/Farting'
 import Swinglegs from './Swinglegs/Swinglegs'
 import Flies from './FLies/Flies'
 import SellerEyes from './SellerEyes/SellerEyes'
+import HandBeer from './HandBeer/HandBeer'
 export default function Animations() {
   return (
     <>
@@ -99,6 +100,7 @@ export default function Animations() {
       <Farting/>
       <Flies />
       <SellerEyes />
+      <HandBeer />
     </>
   );
 }
