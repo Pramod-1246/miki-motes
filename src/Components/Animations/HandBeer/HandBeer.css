@@ -1,0 +1,21 @@
+.hand_beer{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 202px;
+    margin-left: -790px;
+    width: 68px;
+    height: 57px;
+}
+.hand_beer .anim {
+    width: 68px;
+    height: 57px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/hand_beer.png);
+    -webkit-animation: hand_beer 0.84s steps(21) infinite;
+    animation: hand_beer 0.84s steps(21) infinite;
+}
+@keyframes hand_beer{
+    100% {
+        background-position: -1428px;
+    }
+}
