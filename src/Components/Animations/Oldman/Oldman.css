@@ -1,0 +1,33 @@
+.oldman {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 206px;
+  margin-left: -1031px;
+  width: 69px;
+  height: 73px;
+}
+
+.oldman .anim {
+  background-position: 0 0;
+  width: 69px;
+  height: 73px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/oldman.png);
+  animation: oldman 5.5s steps(13) infinite;
+}
+
+@keyframes oldman {
+  0% {
+    background-position-x: 0;
+  }
+
+  11% {
+    background-position-x: -897px;
+  }
+  11.01% {
+    background-position-x: -897px;
+  }
+  100% {
+    background-position-x: -897px;
+  }
+}

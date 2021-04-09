@@ -1,0 +1,18 @@
+.apple{
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 433px;
+    width: 87px;
+    height:58px;
+    margin-left: -1106px;
+    background-image: url('../../../Assets/images/illustrations/apple.png');
+    animation: appleanim 3s steps(16) infinite;
+}
+
+@keyframes appleanim {
+	0% { background-position-x:0; }
+	50% { background-position-x:0;}
+	75% { background-position-x:-1392px;}
+	100% { background-position-x:0; }
+}

@@ -1,0 +1,27 @@
+.waiting_poop {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 100px;
+  margin-left: 443px;
+  width: 45px;
+  height: 50px;
+}
+
+div.wrap div.anim {
+  background-position: 0 0;
+  /* background-repeat: no-repeat; */
+}
+
+.waiting_poop .anim {
+  width: 45px;
+  height: 50px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/waiting_poop.png);
+  -webkit-animation: waiting_poop 0.52s steps(13) infinite;
+  animation: waiting_poop 0.52s steps(13) infinite;
+}
+@keyframes waiting_poop {
+  100% {
+    background-position: -585px;
+  }
+}
