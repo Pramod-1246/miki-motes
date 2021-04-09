@@ -5,7 +5,6 @@
 nav {
   z-index: 20;
   position: sticky;
-  /* left: 29%; */
   top: -5px;
   width: 589px;
   height: 98px;
@@ -38,12 +37,18 @@ nav ul li:hover {
 
 @media only screen and (max-width: 1024px) {
   nav {
-    left: 25%;
+    left: 15%;
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   nav {
-    left: 15%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  nav {
+    left: 2%;
   }
 }
