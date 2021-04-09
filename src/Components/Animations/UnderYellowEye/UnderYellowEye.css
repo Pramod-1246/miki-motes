@@ -1,0 +1,35 @@
+.underyelloweye
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 2907px;
+    margin-left: 845px;
+    width: 25px;
+    height: 12px;
+}
+
+.underyelloweye .anim
+{
+    width: 25px;
+    height: 12px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/underyellow_eyes.png);
+    animation: underyellow_eyes 5s steps(4) infinite;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes underyellow_eyes {
+	0% {
+        background-position: 0;
+    }
+    96% {
+        background-position: 0;
+    }
+    98% {
+        background-position: -100px;
+    }
+    100% {
+        background-position: 0;
+    }
+}

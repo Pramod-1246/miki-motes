@@ -40,8 +40,13 @@ import Tapoodhand from "./Tapoodhand/Tapoodhand";
 import Waitingpoop from "./Waitingpoop/Waitingpoop";
 import Shnoozleeye from "./Shnoozleeye/Shnoozleeye";
 import HandBeer from "./HandBeer/HandBeer";
+import UnderYellowEye from "./UnderYellowEye/UnderYellowEye";
+import SwingEyes from "./SwingEyes/SwingEyes";
+import MermaidEye from "./MermaidEye/MermaidEye";
+import CokeGas from "./CokeGas/CokeGas";
 import Cateyes from "./Cateyes/Cateyes";
 import Babysitter from "./Babysitter/Babysitter";
+
 export default function Animations() {
   return (
     <>
@@ -129,6 +134,10 @@ export default function Animations() {
       <Flies />
       <SellerEyes />
       <HandBeer />
+      <UnderYellowEye />
+      <SwingEyes />
+      <MermaidEye />
+      <CokeGas />
       <Tapoodhand/>
       <Waitingpoop/>
       <Shnoozleeye/>
