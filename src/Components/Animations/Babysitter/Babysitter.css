@@ -1,0 +1,27 @@
+.babysitter {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 100px;
+  margin-left: 849px;
+  width: 71px;
+  height: 47px;
+}
+div.anim {
+  background-position: 0 0;
+  /* background-repeat: no-repeat; */
+}
+
+.babysitter .anim {
+  width: 71px;
+  height: 47px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/babysitter.png);
+  -webkit-animation: babysitter 0.28s steps(7) infinite;
+  animation: babysitter 0.28s steps(7) infinite;
+}
+
+@keyframes babysitter {
+  100% {
+    background-position: -497px;
+  }
+}
