@@ -36,7 +36,12 @@ import RopeAnimation from "./RopeAnimation/RopeAnimation";
 import RabbitEarsAnimation from "./RabbitEarsAnimation/RabbitEarsAnimation";
 import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
 import SellerEyes from "./SellerEyes/SellerEyes";
+import Tapoodhand from "./Tapoodhand/Tapoodhand";
+import Waitingpoop from "./Waitingpoop/Waitingpoop";
+import Shnoozleeye from "./Shnoozleeye/Shnoozleeye";
 import HandBeer from "./HandBeer/HandBeer";
+import Cateyes from "./Cateyes/Cateyes";
+import Babysitter from "./Babysitter/Babysitter";
 export default function Animations() {
   return (
     <>
@@ -124,6 +129,11 @@ export default function Animations() {
       <Flies />
       <SellerEyes />
       <HandBeer />
+      <Tapoodhand/>
+      <Waitingpoop/>
+      <Shnoozleeye/>
+      <Babysitter/>
+      <Cateyes/>
     </>
   );
 }

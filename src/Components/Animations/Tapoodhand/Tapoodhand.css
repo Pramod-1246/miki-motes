@@ -1,0 +1,27 @@
+.tapooad_hand {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 112px;
+  margin-left: 575px;
+  width: 22px;
+  height: 27px;
+}
+
+div.wrap div.anim {
+  background-position: 0 0;
+  /* background-repeat: no-repeat; */
+}
+
+.tapooad_hand .anim {
+  width: 22px;
+  height: 27px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/tapooad_hand.png);
+  -webkit-animation: tapooad_hand 0.6s steps(15) infinite;
+  animation: tapooad_hand 0.6s steps(15) infinite;
+}
+@keyframes tapooad_hand {
+  100% {
+    background-position: -330px;
+  }
+}
