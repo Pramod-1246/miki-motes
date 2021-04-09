@@ -1,0 +1,38 @@
+.shnoozle_eye {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 112px;
+  margin-left: 639px;
+  width: 10px;
+  height: 11px;
+}
+
+div.anim {
+  background-position: 0 0;
+  /* background-repeat: no-repeat; */
+}
+
+.shnoozle_eye .anim {
+  width: 10px;
+  height: 11px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/shnoozle_eye.png);
+  -webkit-animation: shnoozle_eye 3s steps(5) infinite;
+  animation: shnoozle_eye 3s steps(5) infinite;
+}
+
+@keyframes shnoozle_eye {
+  0% {
+    background-position: 0;
+  }
+
+  96% {
+    background-position: 0;
+  }
+  98% {
+    background-position: -50px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
