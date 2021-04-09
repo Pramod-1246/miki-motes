@@ -36,6 +36,7 @@ import RopeAnimation from "./RopeAnimation/RopeAnimation";
 import RabbitEarsAnimation from "./RabbitEarsAnimation/RabbitEarsAnimation";
 import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
 import SellerEyes from "./SellerEyes/SellerEyes";
+import Tapoodhand from "./Tapoodhand/Tapoodhand";
 import HandBeer from "./HandBeer/HandBeer";
 export default function Animations() {
   return (
