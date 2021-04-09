@@ -1,0 +1,35 @@
+.swingeyes
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 1302px;
+    margin-left: 739px;
+    width: 27px;
+    height: 8px;
+}
+
+.swingeyes .anim
+{
+    width: 27px;
+    height: 8px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/swing_eyes.png);
+    animation: swing_eyes 5s steps(5) infinite;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes swing_eyes {
+	0% {
+        background-position: 0;
+    }
+    96% {
+        background-position: 0;
+    }
+    98% {
+        background-position: -135px;
+    }
+    100% {
+        background-position: 0;
+    }
+}

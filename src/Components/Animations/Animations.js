@@ -38,6 +38,9 @@ import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
 import SellerEyes from "./SellerEyes/SellerEyes";
 import HandBeer from "./HandBeer/HandBeer";
 import UnderYellowEye from "./UnderYellowEye/UnderYellowEye";
+import SwingEyes from "./SwingEyes/SwingEyes";
+import MermaidEye from "./MermaidEye/MermaidEye";
+import CokeGas from "./CokeGas/CokeGas";
 
 export default function Animations() {
   return (
@@ -127,6 +130,9 @@ export default function Animations() {
       <SellerEyes />
       <HandBeer />
       <UnderYellowEye />
+      <SwingEyes />
+      <MermaidEye />
+      <CokeGas />
     </>
   );
 }

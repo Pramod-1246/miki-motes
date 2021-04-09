@@ -1,0 +1,26 @@
+.cokegas
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 1730px;
+    margin-left: 765px;
+    width: 14px;
+    height: 18px;
+}
+
+.cokegas .anim
+{
+    width: 14px;
+    height: 18px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/coke_gas.png);
+    animation: coke_gas 0.6s steps(15) infinite;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes coke_gas {
+    100% {
+        background-position: -210px;
+    }
+}

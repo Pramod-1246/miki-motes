@@ -1,0 +1,29 @@
+.mermaideye
+{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 129px;
+    margin-left: 731px;
+    width: 5px;
+    height: 4px;
+}
+
+.mermaideye .anim
+{
+    width: 5px;
+    height: 4px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/mermaid_eye.png);
+    animation: mermaid_eye 3.04s steps(76) infinite;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+@keyframes mermaid_eye {
+	0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1140px;
+    }
+}
