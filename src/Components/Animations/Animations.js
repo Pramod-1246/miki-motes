@@ -27,7 +27,9 @@ import AppleAnimation from './AppleAnimation/AppleAnimation'
 import RopeAnimation from './RopeAnimation/RopeAnimation'
 import RabbitEarsAnimation from './RabbitEarsAnimation/RabbitEarsAnimation'
 import CashierTainAnimation from './CashierTailAnimation/CashierTainAnimation'
-
+import Farting from './Farting/Farting'
+import Swinglegs from './Swinglegs/Swinglegs'
+import Flies from './FLies/Flies'
 export default function Animations() {
   return (
     <>
@@ -68,6 +70,7 @@ export default function Animations() {
         height="138px"
         background="url(http://www.mikimottes.com/images/illustrations/all.png) no-repeat -1332px 0"
       />
+      <Boats />
       <PoopAnimation />
       <BigbushLefteye />
       <BigbushRighteye />
@@ -80,7 +83,6 @@ export default function Animations() {
       <DuckFaceEye />
       <ShopEyes />
       <Anime />
-      <Boats />
       <RightPray />
       <CreaturesAnimations/>
       <FallingCreatureAnimation />
@@ -102,6 +104,9 @@ export default function Animations() {
       <RopeAnimation />
       <RabbitEarsAnimation />
       <CashierTainAnimation />
+      <Swinglegs/>
+      <Farting/>
+      <Flies />
     </>
   );
 }

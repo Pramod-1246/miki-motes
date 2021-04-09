@@ -1,0 +1,37 @@
+.swing_legs {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  top: 1282px;
+  margin-left: 709px;
+  width: 80px;
+  height: 100px;
+  padding: 55px 0 0 30px;
+}
+
+div.wrap div.anim {
+  background-position: 0px 0px;
+}
+
+.swing_legs .anim {
+  width: 53px;
+  height: 38px;
+  background-image: url(http://www.mikimottes.com/images/illustrations/swing_legs.png);
+  -webkit-animation: swing_legs 12.8s steps(80) infinite;
+  animation: swing_legs 12.8s steps(80) infinite;
+}
+@keyframes swing_legs {
+  0% {
+    background-position-x: 0px;
+  }
+
+  25% {
+    background-position-x: -5040px;
+  }
+  25.01% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
