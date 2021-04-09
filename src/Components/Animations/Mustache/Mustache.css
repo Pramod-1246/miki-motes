@@ -1,0 +1,27 @@
+.mustache{
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 1703px;
+    margin-left: -947px;
+    width: 150px;
+    height: 150px;
+    padding: 20px 0 0 20px;
+}
+.mustache .anim {
+    width: 130px;
+    height: 70px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/mustache.png);
+    
+}
+.mustache:hover .anim{
+	-webkit-animation-iteration-count:2;
+    animation-iteration-count:2;
+    animation: mustache 0.56s steps(14) infinite;
+    
+}
+@keyframes mustache{
+    100% {
+        background-position: -1820px;
+    }
+}

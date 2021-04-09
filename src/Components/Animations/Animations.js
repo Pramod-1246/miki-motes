@@ -27,6 +27,7 @@ import Swinglegs from './Swinglegs/Swinglegs'
 import Flies from './FLies/Flies'
 import SellerEyes from './SellerEyes/SellerEyes'
 import HandBeer from './HandBeer/HandBeer'
+import Mustache from './Mustache/Mustache'
 export default function Animations() {
   return (
     <>
@@ -101,6 +102,7 @@ export default function Animations() {
       <Flies />
       <SellerEyes />
       <HandBeer />
+      <Mustache />
     </>
   );
 }
