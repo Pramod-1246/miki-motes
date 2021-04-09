@@ -37,6 +37,8 @@ import RabbitEarsAnimation from "./RabbitEarsAnimation/RabbitEarsAnimation";
 import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
 import SellerEyes from "./SellerEyes/SellerEyes";
 import HandBeer from "./HandBeer/HandBeer";
+import UnderYellowEye from "./UnderYellowEye/UnderYellowEye";
+
 export default function Animations() {
   return (
     <>
@@ -124,6 +126,7 @@ export default function Animations() {
       <Flies />
       <SellerEyes />
       <HandBeer />
+      <UnderYellowEye />
     </>
   );
 }
