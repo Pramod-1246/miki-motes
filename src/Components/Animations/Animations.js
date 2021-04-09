@@ -22,6 +22,11 @@ import RightPray from './RightPray/RightPray'
 import Cucumber from './Cucumber/Cucumber'
 import Sos from './Sos/Sos'
 import Bulbs from './Bulbs/Bulbs'
+import VeryOldManAnimation from './VeryOldManAnimation/VeryOldManAnimation'
+import AppleAnimation from './AppleAnimation/AppleAnimation'
+import RopeAnimation from './RopeAnimation/RopeAnimation'
+import RabbitEarsAnimation from './RabbitEarsAnimation/RabbitEarsAnimation'
+import CashierTainAnimation from './CashierTailAnimation/CashierTainAnimation'
 
 export default function Animations() {
   return (
@@ -92,6 +97,11 @@ export default function Animations() {
       <Cucumber />
       <Sos />
       <Bulbs />
+      <VeryOldManAnimation />
+      <AppleAnimation />
+      <RopeAnimation />
+      <RabbitEarsAnimation />
+      <CashierTainAnimation />
     </>
   );
 }

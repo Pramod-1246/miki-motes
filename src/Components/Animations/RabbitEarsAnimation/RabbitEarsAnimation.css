@@ -1,0 +1,20 @@
+.rabbit-ears {
+    position: absolute;
+    z-index: 11;
+    left: 50%;
+    top: 765px;
+    margin-left: 741px;
+    width: 43px;
+    height: 43px;
+    padding: 0;
+    background-image: url(../../../Assets/images/illustrations/rabbit_ears.png);
+    animation: rabbit_ears 3s steps(7) infinite;
+}
+
+@keyframes rabbit_ears {
+	0% { background-position-x:0; }
+	10% { background-position-x:-294px;}
+	10.01% { background-position-x:0; }
+	20% { background-position-x:-294px; }
+	100% { background-position-x:-294px; }			
+}
