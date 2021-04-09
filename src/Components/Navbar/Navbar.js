@@ -9,7 +9,7 @@ const Navbar = () => {
 				<ul>
                     <li><a style={{color: 'inherit', textDecoration: 'inherit'}} href="#scroll_view">MY WORK</a></li>
                     <li><a style={{color: 'inherit', textDecoration: 'inherit'}} href="#about-me">ABOUT</a></li>
-                    <li><a style={{color: 'inherit', textDecoration: 'inherit'}} href="#oBox4">CONTACT</a></li>
+                    <li><a style={{color: 'inherit', textDecoration: 'inherit'}} href="#contact">CONTACT</a></li>
                     <li><a style={{color: 'inherit', textDecoration: 'inherit'}} href="https://shop.simplehappykitchen.com/?ref=mm" target="_blank" rel="noopener noreferrer">SHOP</a></li>
 			    </ul>
 		    </nav>
