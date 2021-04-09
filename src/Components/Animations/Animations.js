@@ -25,6 +25,7 @@ import Bulbs from './Bulbs/Bulbs'
 import Farting from './Farting/Farting'
 import Swinglegs from './Swinglegs/Swinglegs'
 import Flies from './FLies/Flies'
+import SellerEyes from './SellerEyes/SellerEyes'
 export default function Animations() {
   return (
     <>
@@ -97,6 +98,7 @@ export default function Animations() {
       <Swinglegs/>
       <Farting/>
       <Flies />
+      <SellerEyes />
     </>
   );
 }

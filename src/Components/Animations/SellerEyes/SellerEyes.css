@@ -1,0 +1,33 @@
+.seller_eyes {
+    position: absolute;
+    left: 50%;
+    z-index: 10;
+    top: 205px;
+    margin-left: -781px;
+    width: 16px;
+    height: 13px;
+}
+.seller_eyes .anim {
+    width: 16px;
+    height: 13px;
+    background-image: url(http://www.mikimottes.com/images/illustrations/seller_eyes.png);
+    -webkit-animation: seller_eyes 4s steps(9) infinite;
+    animation: seller_eyes 4s steps(9) infinite;
+}
+@keyframes seller_eyes{
+    0% {
+        background-position-x: 0;
+    }
+    11% {
+        background-position-x: 0;
+    }
+    11.01% {
+        background-position-x: 0;
+    }
+    16.01% {
+        background-position-x: -144px;
+    }
+    100% {
+        background-position-x: -144px;
+    }
+}
