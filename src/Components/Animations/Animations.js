@@ -30,7 +30,13 @@ import Oldman from "./Oldman/Oldman";
 import TreeDoveWing from "./TreeDoveWing/TreeDoveWing";
 import TreeDoveEyes from "./TreeDoveEyes/TreeDoveEyes";
 import WaterPoo from "./WaterPoo/WaterPoo";
-
+import VeryOldManAnimation from "./VeryOldManAnimation/VeryOldManAnimation";
+import AppleAnimation from "./AppleAnimation/AppleAnimation";
+import RopeAnimation from "./RopeAnimation/RopeAnimation";
+import RabbitEarsAnimation from "./RabbitEarsAnimation/RabbitEarsAnimation";
+import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
+import SellerEyes from "./SellerEyes/SellerEyes";
+import HandBeer from "./HandBeer/HandBeer";
 export default function Animations() {
   return (
     <>
@@ -108,6 +114,16 @@ export default function Animations() {
       <TreeDoveWing />
       <TreeDoveEyes />
       <WaterPoo />
+      <VeryOldManAnimation />
+      <AppleAnimation />
+      <RopeAnimation />
+      <RabbitEarsAnimation />
+      <CashierTainAnimation />
+      <Swinglegs />
+      <Farting />
+      <Flies />
+      <SellerEyes />
+      <HandBeer />
     </>
   );
 }
