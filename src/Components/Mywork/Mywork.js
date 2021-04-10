@@ -66,7 +66,7 @@ export default function Mywork() {
   return (
     <>
       {overlay ? <Overlay toggleOverlay={toggleOverlay} /> : null}
-      <section className="myworkSection">
+      <section id="myworks" className="myworkSection">
         <div id="scroll_view"></div>
         <div className="grid_items">
           {state.map((d, i) => {

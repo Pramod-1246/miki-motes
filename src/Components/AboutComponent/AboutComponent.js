@@ -35,7 +35,7 @@ function AboutComponent() {
     }
 
     return (
-        <div className="clsAbout">
+        <div id="about" className="clsAbout">
             <h2>ABOUT</h2>
             <div className="about-content">
                 {displayContent === "about" ? <AboutMe /> : <Publications /> }
