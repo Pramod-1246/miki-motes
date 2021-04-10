@@ -7,7 +7,7 @@ const CreaturesAnimations = () => {
     let leftFarAnim = new ScrollAnim(1713, "creature-left-far", 800, 0.5 , true)
     let leftNearAnim = new ScrollAnim(1766, "creature-left-near", 800, 0.5, true)
     let rightFarAnim = new ScrollAnim(1575, "creature-right-far", 800, 0.5, true )
-    let wormAnim = new ScrollAnim(2785, "worm", 10000, 2, false)
+    let wormAnim = new ScrollAnim(2800, "worm", 10000, 1.5, false)
 
 
     $(window).on('scroll', () => {

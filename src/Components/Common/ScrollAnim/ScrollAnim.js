@@ -34,28 +34,3 @@ export default class ScrollAnim{
         this.initialPosition = currentPosition;
     }
 }
-
-// const ScrollAnim = (top, id, animStartPosition, delta) => {
-//     let topPosition = top;
-//     let initialPosition = $(window).scrollTop();
-
-//     const  scrollAnimation = () => {
-//         const anim = $(`#${id}`);
-//         let currentPosition;
-//         if(window.pageYOffset < animStartPosition){
-//             let delta = delta;
-//             currentPosition = $(window).scrollTop();
-//             if(currentPosition > initialPosition){
-//                 topPosition -= delta
-//             }
-//             else {
-//                 topPosition += delta
-//             }
-//             anim.css({top:topPosition+"px"})
-
-//         }
-//         initialPosition = currentPosition;
-//     }
-// }
-
-// export default ScrollAnim;
