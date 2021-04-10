@@ -44,6 +44,10 @@ import Flies from './FLies/Flies'
 import SellerEyes from './SellerEyes/SellerEyes'
 import HandBeer from './HandBeer/HandBeer'
 import Mustache from './Mustache/Mustache'
+import CashierTainAnimation from "./CashierTailAnimation/CashierTainAnimation";
+import Shnoozleeye from "./Shnoozleeye/Shnoozleeye";
+import UnderYellowEye from "./UnderYellowEye/UnderYellowEye";
+
 export default function Animations() {
   return (
     <>
@@ -135,6 +139,9 @@ export default function Animations() {
       <VeryOldManAnimation />
       <Waitingpoop />
       <WaterPoo />
+      <Shnoozleeye/>
+      <UnderYellowEye />
+      <CashierTainAnimation />
     </>
   );
 }
