@@ -1,5 +1,21 @@
 import React from 'react'
 import './Animations.css'
+import AppleAnimation from './AppleAnimation/AppleAnimation';
+import BabySitter from './Babysitter/Babysitter';
+import Cateyes from './Cateyes/Cateyes';
+import CokeGas from './CokeGas/CokeGas';
+import DovesEating from './DovesEating/DovesEating';
+import MermaidEye from './MermaidEye/MermaidEye';
+import Oldman from './Oldman/Oldman';
+import RabbitEarsAnimation from './RabbitEarsAnimation/RabbitEarsAnimation';
+import RopeAnimation from './RopeAnimation/RopeAnimation';
+import SwingEyes from './SwingEyes/SwingEyes';
+import Tapoodhand from './Tapoodhand/Tapoodhand';
+import TreeDoveEyes from './TreeDoveEyes/TreeDoveEyes';
+import TreeDoveWing from './TreeDoveWing/TreeDoveWing';
+import VeryOldManAnimation from './VeryOldManAnimation/VeryOldManAnimation';
+import Waitingpoop from './Waitingpoop/Waitingpoop';
+import WaterPoo from './WaterPoo/WaterPoo';
 import Hat from './Hat/Hat'
 import ImageAnim from '../Common/ImageAnim/ImageAnim'
 import Anime from './LeftPray/Anime'
@@ -103,6 +119,22 @@ export default function Animations() {
       <SellerEyes />
       <HandBeer />
       <Mustache />
+      <AppleAnimation />
+      <BabySitter />
+      <Cateyes />
+      <CokeGas />
+      <DovesEating />
+      <MermaidEye />
+      <Oldman />
+      <RabbitEarsAnimation />
+      <RopeAnimation />
+      <SwingEyes />
+      <Tapoodhand />
+      <TreeDoveEyes />
+      <TreeDoveWing />
+      <VeryOldManAnimation />
+      <Waitingpoop />
+      <WaterPoo />
     </>
   );
 }
